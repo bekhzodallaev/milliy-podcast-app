@@ -1,54 +1,100 @@
-.container {
+.main-container {
   display: flex;
   flex-direction: column;
-  row-gap: 272px;
+  row-gap: 17rem;
 }
 
 .parent-container {
   display: flex;
-  width: 1039px;
+  width: 64.938rem;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 4.375rem;
 }
 .image-container {
-  width: 468px;
-  height: 427px;
+  width: 29.25rem;
+  height: 26.688rem;
   flex-shrink: 0;
 }
 .image-container img {
   width: 100%;
 }
+.podcast-info-main {
+  display: flex;
+  width: 28.438rem;
+  height: 26.125rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.podcast-info-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
 .heading {
-  font-family: "Clash Display", sans-serif;
-  font-size: 30px;
-  font-style: normal;
+  font-size: 1.875rem;
   font-weight: 600;
   line-height: normal;
   background: linear-gradient(90deg, #9b2065 0%, #392d91 46.47%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.main-heading {
+  width: 392px;
+  padding: 0;
+  margin: 0;
 }
 .platform-info-container {
   display: flex;
 }
+.audio-container,
+.video-container {
+  display: flex;
+  width: 228px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
 .info-text-big {
-  font-family: "Clash Display", sans-serif;
-  font-size: 26px;
-  font-style: normal;
+  font-size: 1.625rem;
   font-weight: 600;
   line-height: normal;
   background: linear-gradient(90deg, #9d1f63 0%, #392d91 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 0;
+  margin: 0;
 }
 .info-text-small {
   color: rgba(56, 59, 58, 0.75);
-  font-family: "Clash Display", sans-serif;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 1rem;
   font-weight: 500;
   line-height: normal;
+  margin: 0;
+}
+
+.info-parent-container {
+  display: flex;
+  height: 402px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.info-parent-container .info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
 }

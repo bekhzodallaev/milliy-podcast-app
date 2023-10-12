@@ -5,31 +5,33 @@ import ImageVideo from "../assets/image-video.png";
 import Image2 from "../assets/image-noise-texture-2.png";
 function PodcastInfo() {
   return (
-    <div className="container">
+    <div className="main-container">
       <div className="parent-container">
         <div className="image-container">
-          <img src={Image1} alt="Podcast-image" />
+          <img src={Image1} alt="Podcast-img" />
         </div>
-        <div className="podcast-info">
-          <p className="heading">
-            A Platform for Hosting Both Audio and Video Podcasts
-          </p>
-          <div className="platform-info-container">
-            <div className="audio-container">
-              <img src={ImageAudio} alt="Audio-image" />
-              <p className="info-text-big">Audio</p>
-              <p className="info-text-small">
-                Listen to your favourite podcasts and watch videos seamlessly on
-                our platform
-              </p>
-            </div>
-            <div className="video-container">
-              <img src={ImageVideo} alt="Video-image" />
-              <p className="info-text-big">Video</p>
-              <p className="info-text-small">
-                Discover a new way to consume content with our platform's video
-                capabilities.
-              </p>
+        <div className="podcast-info-main">
+          <div className="podcast-info-child">
+            <p className="heading main-heading">
+              A Platform for Hosting Both Audio and Video Podcasts
+            </p>
+            <div className="platform-info-container">
+              <div className="audio-container">
+                <img src={ImageAudio} alt="Audio-img" />
+                <p className="info-text-big">Audio</p>
+                <p className="info-text-small">
+                  Listen to your favourite podcasts and watch videos seamlessly
+                  on our platform
+                </p>
+              </div>
+              <div className="video-container">
+                <img src={ImageVideo} alt="Video-img" />
+                <p className="info-text-big">Video</p>
+                <p className="info-text-small">
+                  Discover a new way to consume content with our platform's
+                  video capabilities.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -58,7 +60,7 @@ function PodcastInfo() {
           </div>
         </div>
         <div className="image-container-2">
-          <img src={Image2} alt="" />
+          <img src={Image2} alt="Podcast-img" />
         </div>
       </div>
     </div>
