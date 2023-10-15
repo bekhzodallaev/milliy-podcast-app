@@ -1,5 +1,6 @@
 .navbar {
   background-color: blue;
+  /* TODO: we need to remove colour */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +23,7 @@
 
 .signup-button {
   display: flex;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   justify-content: center;
   align-items: center;
   gap: 10px;

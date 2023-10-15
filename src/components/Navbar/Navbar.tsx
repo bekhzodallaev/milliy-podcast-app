@@ -1,24 +1,32 @@
 import React from "react";
+import { Button } from "@mui/material";
+
 import "./Navbar.css";
 import Logo from "../../assets/logo.png";
 import PodcastLogo from "../../assets/podcast.svg";
 
-interface NavbarProps {}
-
-const Navbar: React.FC<NavbarProps> = (props) => {
+const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={Logo} alt="Logo" />
-        <img src={PodcastLogo} alt="Logo" />
+        <img src={Logo} alt="Main Logo" />
+        <img src={PodcastLogo} alt="Podcast Logo" />
       </div>
       <div className="navbar-buttons">
-        <button>About</button>
-        <button>FAQ</button>
-        <button>Contact</button>
+        <Button variant="text" style={{ color: "white" }}>
+          About
+        </Button>
+        <Button variant="text" style={{ color: "white" }}>
+          FAQ
+        </Button>
+        <Button variant="text" style={{ color: "white" }}>
+          Contact
+        </Button>
       </div>
       <div className="signup-button">
-        <button>Sign Up</button>
+        <Button size="small" style={{ color: "white" }}>
+          Sign Up
+        </Button>
       </div>
     </nav>
   );

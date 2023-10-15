@@ -6,8 +6,13 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <PodcastInfo />
+      <div>
+        <div className="navbar-content">
+          <Navbar />
+        </div>
+
+        <PodcastInfo />
+      </div>
     </div>
   );
 }
