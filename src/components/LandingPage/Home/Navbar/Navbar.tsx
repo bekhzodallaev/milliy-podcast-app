@@ -2,8 +2,8 @@ import React from "react";
 import { Button } from "@mui/material";
 
 import "./Navbar.css";
-import Logo from "../../assets/logo.png";
-import PodcastLogo from "../../assets/podcast.svg";
+import Logo from "../../../../assets/logo.png";
+import PodcastLogo from "../../../../assets/podcast.svg";
 
 const Navbar: React.FC = () => {
   return (

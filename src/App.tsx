@@ -1,7 +1,7 @@
 import React from "react";
-import PodcastInfo from "./podcast-info/PodcastInfo";
+import PodcastInfo from "./components/LandingPage/Home/PodcastInfo/PodcastInfo";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/LandingPage/Home/Navbar/Navbar";
 
 function App() {
   return (
