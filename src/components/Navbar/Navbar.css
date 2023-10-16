@@ -1,0 +1,32 @@
+.navbar {
+  background-color: blue;
+  /* TODO: we need to remove colour */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.navbar-logo {
+  display: flex;
+  height: 32.139px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.signup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 63px;
+  border: 0.5px solid #fff;
+  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+}
