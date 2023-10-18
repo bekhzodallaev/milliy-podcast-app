@@ -1,9 +1,16 @@
 .main-content {
-  background: url(../../../../assets/bg-gradient.png),
-    lightgray 50% / cover no-repeat;
+  background: url(../../../../assets/bg-gradient.png), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* width: 80rem; */
   height: 52rem;
   flex-shrink: 0;
+}
+.main-container-1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .left-side {
   display: inline-flex;
@@ -28,7 +35,11 @@
   font-weight: 600;
   line-height: normal;
 }
-
+.navbar-content {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
 .content-text {
   color: rgba(255, 255, 255, 0.75);
   font-family: Clash Display;
