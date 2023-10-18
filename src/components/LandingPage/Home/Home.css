@@ -1,11 +1,14 @@
-.App {
-  align-items: center;
-  width: 100%;
-  justify-content: center;
+.home {
+  background: url(../../../assets/noise-texture.png),
+    lightgray 0% 0% / 62.6953125px 62.6953125px repeat;
+
+  /* align-items: center; */
+  /* width: 100%; */
+  /* justify-content: center;
   display: flex;
   font-family: "Clash Display", sans-serif;
   font-style: normal;
-  line-height: normal;
+  line-height: normal; */
 }
 
 .navbar-content {

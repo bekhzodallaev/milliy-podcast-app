@@ -1,17 +1,12 @@
 import React from "react";
 import PodcastInfo from "./PodcastInfo/PodcastInfo";
 import "./Home.css";
-import Navbar from "./Navbar/Navbar";
 import MainContent from "./MainContent";
 
 function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <div>
-        <div className="navbar-content">
-          <Navbar />
-        </div>
-
         <MainContent />
 
         <PodcastInfo />
