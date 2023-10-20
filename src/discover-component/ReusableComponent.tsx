@@ -1,26 +1,36 @@
 import ImagePlaying from "../assets/image-playing.png";
-import ArrowRight from "../assets/Arrow - Right 2.svg";
+import ArrowRight from "../assets/arrow-right.svg";
+import styles from "./DiscoverStyles.module.css";
 interface ReusableComponentProps {
-  text: React.ReactNode;
+  heading: string;
+  text: string;
   buttonText: string;
   linkText: string;
   buttonClassName?: string;
+  headingClassName: string;
+  textClassName?: string;
 }
 
 const ReusableComponent: React.FC<ReusableComponentProps> = ({
+  heading,
   text,
   buttonText,
   buttonClassName,
   linkText,
+  headingClassName,
+  textClassName,
 }) => {
   return (
-    <div>
+    <div className={styles.reusableContainer}>
       <img src={ImagePlaying} alt="Image-playing" />
-      <div>{text}</div>
-      <div className="buttons">
+      <div className={headingClassName}>{heading}</div>
+      <div className={textClassName}>{text}</div>
+      <div className={styles.buttons}>
         <button className={buttonClassName}>{buttonText}</button>
-        <p>{linkText}</p>
-        <img src={ArrowRight} alt="" />
+        <div className={styles.linkContainer}>
+          <p>{linkText}</p>
+          <img src={ArrowRight} alt="Arrow-icon" />
+        </div>
       </div>
     </div>
   );
