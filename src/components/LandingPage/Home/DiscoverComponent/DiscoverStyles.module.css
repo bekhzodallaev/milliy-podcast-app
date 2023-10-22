@@ -26,46 +26,7 @@
   align-items: center;
   gap: 1.25rem;
   flex: 1 0 0;
-  height: 17.375rem;
   width: 22.70833rem;
-}
-.buttons {
-  display: flex;
-  width: 17.5rem;
-  justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
-}
-.linkContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  color: #000;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: normal;
-}
-/* reusable container styles */
-
-.discoverBtn {
-  display: flex;
-  padding: 0.625rem 1.25rem;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3.9375rem;
-  border: 1px solid #d7d8d8;
-  background: #fff;
-  color: #000;
-  font-family: Clash Display;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: normal;
-  transition: 0.3s ease-in-out;
-}
-.discoverBtn:hover {
-  border: 1px solid #d7d8d8;
-  background: #f6f6f6;
 }
 
 .text {
