@@ -1,18 +1,9 @@
-import React from "react";
-import PodcastInfo from "./podcast-info/PodcastInfo";
-import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/LandingPage/Home";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <div className="navbar-content">
-          <Navbar />
-        </div>
-
-        <PodcastInfo />
-      </div>
+      <Home />
     </div>
   );
 }

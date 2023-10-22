@@ -1,7 +1,21 @@
-.navbar {
-  background-color: blue;
-  /* TODO: we need to remove colour */
+.navbar,
+.navbar-container,
+.navbar-logo,
+.navbar-buttons,
+.signup-button {
   display: flex;
+}
+
+.navbar {
+  width: 80rem;
+  height: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.navbar-container {
   justify-content: space-between;
   align-items: center;
   flex: 1 0 0;
@@ -9,24 +23,22 @@
 }
 
 .navbar-logo {
-  display: flex;
   height: 32.139px;
   justify-content: center;
   align-items: center;
 }
 
 .navbar-buttons {
-  display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .signup-button {
-  display: flex;
+  padding: 0.625rem 1.25rem;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-radius: 63px;
+  gap: 0.625rem;
+  border-radius: 3.9375rem;
   border: 0.5px solid #fff;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
 }
