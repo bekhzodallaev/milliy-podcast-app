@@ -2,6 +2,7 @@ import React from "react";
 import PodcastInfo from "./PodcastInfo/PodcastInfo";
 import "./Home.css";
 import MainContent from "./MainContent";
+import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
 
 function Home() {
   return (
@@ -10,6 +11,8 @@ function Home() {
         <MainContent />
 
         <PodcastInfo />
+
+        <DiscoverComponent />
       </div>
     </div>
   );
