@@ -1,11 +1,11 @@
 import React from "react";
 import PodcastInfo from "./PodcastInfo/PodcastInfo";
-import "./Home.css";
+import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 
 function Home() {
   return (
-    <div className="home">
+    <div className={classes.home}>
       <div>
         <MainContent />
 
