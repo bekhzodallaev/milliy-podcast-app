@@ -1,13 +1,9 @@
 import React from "react";
-import "./MainContent.css"; // Add your CSS file for styling
+import "./MainContent.css";
 
 import Navbar from "../Navbar/Navbar";
 
-interface YourComponentProps {
-  // Add any props you may need
-}
-
-const MainContent: React.FC<YourComponentProps> = (props) => {
+const MainContent: React.FC = (props) => {
   return (
     <div className="main-content">
       <div className="navbar-content">

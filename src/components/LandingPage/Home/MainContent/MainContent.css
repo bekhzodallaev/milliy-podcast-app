@@ -2,21 +2,15 @@
   background: url(../../../../assets/bg-gradient.png), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 80rem; */
   height: 52rem;
   flex-shrink: 0;
 }
+
 .main-container-1 {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-}
-.left-side {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.25rem;
 }
 
 .left-side {
@@ -35,11 +29,14 @@
   font-weight: 600;
   line-height: normal;
 }
-.navbar-content {
+
+.navbar-content,
+.main-buttons {
   width: 100%;
   align-items: center;
   display: flex;
 }
+
 .content-text {
   color: rgba(255, 255, 255, 0.75);
   font-family: Clash Display;
@@ -49,45 +46,32 @@
   line-height: normal;
 }
 
-.main-buttons {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
-}
-
-.browse-episodes {
-  display: flex;
-  height: 2.625rem;
-  padding: 0.625rem 1.25rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  border-radius: 3.125rem;
-  border: 0.5px solid #fff;
-  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
-  color: #fff;
-  font-family: Clash Display;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
+.browse-episodes,
 .become-podcaster {
   display: flex;
   height: 2.625rem;
   padding: 0.625rem 1.25rem;
   justify-content: center;
   align-items: center;
-  gap: 0.9375rem;
   border-radius: 3.125rem;
-  border: 0.327px solid #fff;
-  background: #fff;
   font-family: Clash Display;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.browse-episodes {
+  gap: 0.625rem;
+  border: 0.5px solid #fff;
+  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+  color: #fff;
+}
+
+.become-podcaster {
+  gap: 0.9375rem;
+  border: 0.327px solid #fff;
+  background: #fff;
 }
 
 .right-side {
