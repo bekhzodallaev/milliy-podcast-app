@@ -1,8 +1,8 @@
 .navbar,
-.navbar-container,
-.navbar-logo,
-.navbar-buttons,
-.signup-button {
+.navbar_container,
+.navbar_logo,
+.navbar_buttons,
+.signup_button {
   display: flex;
 }
 
@@ -15,25 +15,25 @@
   flex-shrink: 0;
 }
 
-.navbar-container {
-  justify-content: space-between;
+.navbar_container {
+  justify-content: space-around;
   align-items: center;
   flex: 1 0 0;
   align-self: stretch;
 }
 
-.navbar-logo {
+.navbar_logo {
   height: 32.139px;
   justify-content: center;
   align-items: center;
 }
 
-.navbar-buttons {
+.navbar_buttons {
   align-items: center;
   gap: 2.5rem;
 }
 
-.signup-button {
+.signup_button {
   padding: 0.625rem 1.25rem;
   justify-content: center;
   align-items: center;

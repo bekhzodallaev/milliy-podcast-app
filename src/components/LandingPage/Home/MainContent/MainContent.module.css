@@ -1,4 +1,4 @@
-.main-content {
+.main_content {
   background: url(../../../../assets/bg-gradient.png), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,14 +6,14 @@
   flex-shrink: 0;
 }
 
-.main-container-1 {
+.main_container_1 {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.left-side {
+.left_side {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -21,7 +21,7 @@
   width: 29.6875rem;
 }
 
-.main-text {
+.main_text {
   color: #fff;
   font-family: Clash Display;
   font-size: 2.75rem;
@@ -30,14 +30,14 @@
   line-height: normal;
 }
 
-.navbar-content,
-.main-buttons {
+.navbar_content,
+.main_buttons {
   width: 100%;
   align-items: center;
   display: flex;
 }
 
-.content-text {
+.content_text {
   color: rgba(255, 255, 255, 0.75);
   font-family: Clash Display;
   font-size: 1.25rem;
@@ -46,8 +46,8 @@
   line-height: normal;
 }
 
-.browse-episodes,
-.become-podcaster {
+.browse_episodes,
+.become_podcaster {
   display: flex;
   height: 2.625rem;
   padding: 0.625rem 1.25rem;
@@ -61,20 +61,20 @@
   line-height: normal;
 }
 
-.browse-episodes {
+.browse_episodes {
   gap: 0.625rem;
   border: 0.5px solid #fff;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
   color: #fff;
 }
 
-.become-podcaster {
+.become_podcaster {
   gap: 0.9375rem;
   border: 0.327px solid #fff;
   background: #fff;
 }
 
-.right-side {
+.right_side {
   background: url(../../../../assets/rightside.png),
     lightgray -91.8px 0px / 113.698% 100% no-repeat;
   mix-blend-mode: lighten;
