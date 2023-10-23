@@ -1,19 +1,19 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-import "./Navbar.css";
+import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/logo.png";
 import PodcastLogo from "../../../../assets/podcast.svg";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-logo">
+    <nav className={classes.navbar}>
+      <div className={classes.navbar_container}>
+        <div className={classes.navbar_logo}>
           <img src={Logo} alt="Main Logo" />
           <img src={PodcastLogo} alt="Podcast Logo" />
         </div>
-        <div className="navbar-buttons">
+        <div className={classes.navbar_buttons}>
           <Button variant="text" style={{ color: "white" }}>
             About
           </Button>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             Contact
           </Button>
         </div>
-        <div className="signup-button">
+        <div className={classes.signup_button}>
           <Button size="small" style={{ color: "white" }}>
             Sign Up
           </Button>
