@@ -16,7 +16,7 @@
 }
 
 .navbar_container {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex: 1 0 0;
   align-self: stretch;
