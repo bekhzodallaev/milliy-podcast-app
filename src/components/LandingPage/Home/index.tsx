@@ -1,12 +1,13 @@
 import React from "react";
 import PodcastInfo from "./PodcastInfo/PodcastInfo";
-import "./Home.css";
+import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 import PodcastTreasure from "./PodcastTreasure";
+import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
 
 function Home() {
   return (
-    <div className="home">
+    <div className={classes.home}>
       <div>
         {/* Include Navbar and Main Content */}
         <MainContent />
@@ -15,9 +16,10 @@ function Home() {
         <PodcastInfo />
 
         {/* TODO: Here should be Reusable Components */}
-
+        <DiscoverComponent />
         {/* Including Podcast Treasure */}
         <PodcastTreasure />
+        
       </div>
     </div>
   );
