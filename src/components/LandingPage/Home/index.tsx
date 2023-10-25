@@ -3,17 +3,18 @@ import PodcastInfo from "./PodcastInfo/PodcastInfo";
 import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
+import FAQComponent from "./FAQ";
 
 function Home() {
   return (
     <div className={classes.home}>
-      <div>
-        <MainContent />
+      <MainContent />
 
-        <PodcastInfo />
+      <PodcastInfo />
 
-        <DiscoverComponent />
-      </div>
+      <DiscoverComponent />
+
+      <FAQComponent />
     </div>
   );
 }
