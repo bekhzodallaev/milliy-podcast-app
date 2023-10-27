@@ -3,6 +3,7 @@ import PodcastInfo from "./PodcastInfo/PodcastInfo";
 import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
+import Testimonials from "./TestimonialsComponent/Testimonials";
 
 function Home() {
   return (
@@ -13,6 +14,8 @@ function Home() {
         <PodcastInfo />
 
         <DiscoverComponent />
+
+        <Testimonials />
       </div>
     </div>
   );
