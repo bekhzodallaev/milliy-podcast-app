@@ -1,0 +1,34 @@
+.newsletter_main {
+  background: rgba(56, 59, 58, 0.15);
+  display: flex;
+  width: 80rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 0 auto;
+}
+.newsletter_container {
+  display: flex;
+  width: 64.9375rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_side {
+  display: flex;
+  height: 25.125rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.right_side {
+  background: url("../../../../assets/newsletter_right_side.png"),
+    lightgray 50% / cover no-repeat;
+  width: 16.36713rem;
+  height: 16.29625rem;
+  flex-shrink: 0;
+}

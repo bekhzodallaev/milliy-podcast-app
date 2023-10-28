@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 import PodcastTreasure from "./PodcastTreasure";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
+import Newsletter from "./Newsletter";
 
 function Home() {
   return (
@@ -19,7 +20,8 @@ function Home() {
         <DiscoverComponent />
         {/* Including Podcast Treasure */}
         <PodcastTreasure />
-        
+
+        <Newsletter />
       </div>
     </div>
   );
