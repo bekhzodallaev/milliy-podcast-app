@@ -5,6 +5,7 @@ import MainContent from "./MainContent";
 import PodcastTreasure from "./PodcastTreasure";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
 import FooterComponent from "./FooterComponent/FooterComponent";
+import Testimonials from "./TestimonialsComponent/Testimonials";
 
 function Home() {
   return (
@@ -18,9 +19,10 @@ function Home() {
 
         {/* TODO: Here should be Reusable Components */}
         <DiscoverComponent />
+
+        <Testimonials />
         {/* Including Podcast Treasure */}
         <PodcastTreasure />
-
         <FooterComponent />
       </div>
     </div>
