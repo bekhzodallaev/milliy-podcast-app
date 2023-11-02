@@ -1,0 +1,61 @@
+.podcast_treasure {
+  background: rgba(56, 59, 58, 0.15);
+  display: flex;
+  height: 15.0625rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+}
+
+.main_container {
+  display: flex;
+  width: 64.9375rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_container_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.unlock_treasure {
+  background: linear-gradient(90deg, #d1157f 0%, #412cda 46.47%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.unlock_tresure_content {
+  color: #6a6c6b;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.create_account_button {
+  color: #fff;
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.9375rem;
+  border: 0.5px solid var(--Black, #383b3a);
+  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+}
