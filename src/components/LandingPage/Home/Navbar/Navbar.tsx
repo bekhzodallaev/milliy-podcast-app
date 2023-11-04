@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
-
 import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/logo.png";
 import PodcastLogo from "../../../../assets/podcast.svg";
@@ -14,20 +12,20 @@ const Navbar: React.FC = () => {
           <img src={PodcastLogo} alt="Podcast Logo" />
         </div>
         <div className={classes.navbar_buttons}>
-          <Button variant="text" style={{ color: "white" }}>
-            About
-          </Button>
-          <Button variant="text" style={{ color: "white" }}>
-            FAQ
-          </Button>
-          <Button variant="text" style={{ color: "white" }}>
-            Contact
-          </Button>
+          <ul>
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
         </div>
         <div className={classes.signup_button}>
-          <Button size="small" style={{ color: "white" }}>
-            Sign Up
-          </Button>
+          <button className="singup_btn">Sign Up</button>
         </div>
       </div>
     </nav>
