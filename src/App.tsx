@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/LandingPage/Home";
 import Welcome from "./components/LandingPage/Auth";
 import AboutUs from "./components/LandingPage/AboutUs";
+import SignIn from "./components/LandingPage/Auth/SignIn";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/welcome" element={<Welcome />} />
       <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/signin" element={<SignIn />} />
+      <Route path="/signup" element={<AboutUs />} />
 
       {/* TODO Later */}
       {/* <Route path="/faq" element={<FAQ />} /> */}

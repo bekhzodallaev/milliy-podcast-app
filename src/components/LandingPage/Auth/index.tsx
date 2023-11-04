@@ -1,12 +1,21 @@
 import React from "react";
 import classes from "./WelcomePage.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AiOutlineLeft } from "react-icons/ai";
 
 import podcast from "../../../assets/podcast.svg";
 import logo from "../../../assets/logo.png";
 
 const Welcome = () => {
+  const navigate = useNavigate();
+
+  const handleSignInClick = () => {
+    navigate("/signin");
+  };
+
+  const handleSignUpClick = () => {
+    navigate("/signun");
+  };
   return (
     <div className={classes.welcome_page}>
       <div className={classes.circle_container}>
@@ -31,8 +40,16 @@ const Welcome = () => {
             </p>
           </div>
           <div className={classes.login_buttons}>
-            <button className={classes.signin_button}>Sign In</button>
-            <button className={classes.create_account_button}>
+            <button
+              className={classes.signin_button}
+              onClick={handleSignInClick}
+            >
+              Sign In
+            </button>
+            <button
+              className={classes.create_account_button}
+              onClick={handleSignUpClick}
+            >
               Create Account
             </button>
           </div>
