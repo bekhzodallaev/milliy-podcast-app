@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import MainContent from "./MainContent";
 import PodcastTreasure from "./PodcastTreasure";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
+import Newsletter from "./Newsletter";
 import FAQComponent from "./FAQ";
 import FooterComponent from "./FooterComponent/FooterComponent";
 import Testimonials from "./TestimonialsComponent/Testimonials";
@@ -26,6 +27,8 @@ function Home() {
         <Testimonials />
         {/* Including Podcast Treasure */}
         <PodcastTreasure />
+
+        <Newsletter />
         <FooterComponent />
       </div>
     </div>
