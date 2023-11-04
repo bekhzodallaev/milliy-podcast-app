@@ -1,9 +1,19 @@
 import React from "react";
+import { useNavigate, Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/logo.png";
 import PodcastLogo from "../../../../assets/podcast.svg";
 
 const Navbar: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleSignUpClick = () => {
+    navigate("/welcome");
+  };
+
+  const handleAboutUsClick = () => {
+    navigate("/aboutus");
+  };
   return (
     <nav className={classes.navbar}>
       <div className={classes.navbar_container}>
@@ -14,18 +24,26 @@ const Navbar: React.FC = () => {
         <div className={classes.navbar_buttons}>
           <ul>
             <li>
-              <a href="#">ABOUT</a>
+              <Link to="/aboutus" className={classes.navbar_links}>
+                About
+              </Link>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <Link to="/faq" className={classes.navbar_links}>
+                FAQ
+              </Link>
             </li>
             <li>
-              <a href="#">CONTACT</a>
+              <Link to="/contact" className={classes.navbar_links}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
         <div className={classes.signup_button}>
-          <button className="singup_btn">Sign Up</button>
+          <button className="singup_btn" onClick={handleSignUpClick}>
+            Sign Up
+          </button>
         </div>
       </div>
     </nav>

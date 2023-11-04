@@ -48,7 +48,14 @@
 .navbar_buttons ul li {
   list-style-type: none;
 }
-.navbar_buttons ul li a {
+
+.navbar_links {
+  color: #fff;
+  font-size: 0.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar_buttons ul li Link {
   color: #fff;
   font-size: 0.875rem;
   text-decoration: none;
