@@ -20,7 +20,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Clash Display;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 600;
@@ -28,7 +27,6 @@
 }
 
 .container_content {
-  /* width: 28.5rem; */
   color: rgba(56, 59, 58, 0.75);
 }
 
