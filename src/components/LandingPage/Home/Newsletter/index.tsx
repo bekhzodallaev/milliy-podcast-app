@@ -27,7 +27,10 @@ const Newsletter = () => {
               Subscribe <AiOutlineRight />
             </button>
           </div>
-          <p></p>
+          <p>
+            By subscribing you agree to with our Privacy policy and provide
+            consent to receive updates from our company.
+          </p>
         </div>
         <div className={classes.right_side_picture}></div>
       </div>
