@@ -1,7 +1,4 @@
-import React from "react";
-
 import classes from "./Newsletter.module.css";
-
 import { AiOutlineRight } from "react-icons/ai";
 
 const Newsletter = () => {
@@ -10,25 +7,31 @@ const Newsletter = () => {
       <div className={classes.newsletter_container}>
         <div className={classes.left_side}>
           <div className={classes.left_side_title}>
-            <p>Get the Latest Updates Here</p>
-            <p>
-              Subscribe to our newsletter for updates, promotions, and exclusive
-              content.
+            <p className={classes.container_title}>
+              Get the Latest Updates <br /> Here
+            </p>
+            <p className={classes.container_content}>
+              Subscribe to our newsletter for updates, promotions, and <br />
+              exclusive content.
             </p>
           </div>
-          <div>
+          <div className={classes.input_button}>
             <input
               type="email"
               name=""
               id=""
               placeholder="Enter your email Address"
+              className={classes.email_input}
             />
-            <button type="submit">
+            <button type="submit" className={classes.subscribe_button}>
               Subscribe <AiOutlineRight />
             </button>
           </div>
-          <p>
-            By subscribing you agree to with our Privacy policy and provide
+          <p className={classes.footer_content}>
+            By subscribing you agree to with our
+            <p className={classes.privicy_policy}> Privacy policy</p> and
+            provide
+            <br />
             consent to receive updates from our company.
           </p>
         </div>
