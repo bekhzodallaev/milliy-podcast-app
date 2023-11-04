@@ -5,6 +5,7 @@ import MainContent from "./MainContent";
 import PodcastTreasure from "./PodcastTreasure";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
 import Newsletter from "./Newsletter";
+import FAQComponent from "./FAQ";
 import FooterComponent from "./FooterComponent/FooterComponent";
 import Testimonials from "./TestimonialsComponent/Testimonials";
 
@@ -20,6 +21,8 @@ function Home() {
 
         {/* TODO: Here should be Reusable Components */}
         <DiscoverComponent />
+
+        <FAQComponent />
 
         <Testimonials />
         {/* Including Podcast Treasure */}
