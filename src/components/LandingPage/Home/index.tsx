@@ -2,19 +2,32 @@ import React from "react";
 import PodcastInfo from "./PodcastInfo/PodcastInfo";
 import classes from "./Home.module.css";
 import MainContent from "./MainContent";
+import PodcastTreasure from "./PodcastTreasure";
 import DiscoverComponent from "./DiscoverComponent/DiscoverComponent";
 import FAQComponent from "./FAQ";
+import FooterComponent from "./FooterComponent/FooterComponent";
+import Testimonials from "./TestimonialsComponent/Testimonials";
 
 function Home() {
   return (
     <div className={classes.home}>
-      <MainContent />
+      <div>
+        {/* Include Navbar and Main Content */}
+        <MainContent />
 
-      <PodcastInfo />
+        {/* Including Podcast Info */}
+        <PodcastInfo />
 
-      <DiscoverComponent />
+        {/* TODO: Here should be Reusable Components */}
+        <DiscoverComponent />
 
-      <FAQComponent />
+        <FAQComponent />
+
+        <Testimonials />
+        {/* Including Podcast Treasure */}
+        <PodcastTreasure />
+        <FooterComponent />
+      </div>
     </div>
   );
 }
