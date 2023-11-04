@@ -71,6 +71,16 @@
   background: #fff;
 }
 
+.forgot_password {
+  width: 100%;
+  color: var(--Purple, #331cfe);
+  text-align: right;
+  font-family: Clash Display;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .buttons_container {
   display: flex;
   flex-direction: column;

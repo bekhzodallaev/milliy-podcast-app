@@ -12,6 +12,10 @@ const SignUp = () => {
   const handleGoBackLoginClick = () => {
     navigate("/signin");
   };
+
+  const handleCreateAccountClick = () => {
+    navigate("/verify-account");
+  };
   return (
     <div>
       <Navbar />
@@ -42,7 +46,12 @@ const SignUp = () => {
           />
         </div>
         <div className={classes.buttons_container}>
-          <button className={classes.signin_button}>Create Account</button>
+          <button
+            className={classes.signin_button}
+            onClick={handleCreateAccountClick}
+          >
+            Create Account
+          </button>
           <button className={classes.google_signin}>
             <FcGoogle />
             Google
