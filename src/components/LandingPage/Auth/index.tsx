@@ -14,7 +14,7 @@ const Welcome = () => {
   };
 
   const handleSignUpClick = () => {
-    navigate("/signun");
+    navigate("/signup");
   };
   return (
     <div className={classes.welcome_page}>

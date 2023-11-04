@@ -1,14 +1,21 @@
 import React from "react";
 import Navbar from "../ReusbaleNavbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 
 import classes from "./SignIn.module.css";
 
 const SignIn = () => {
+  const navigate = useNavigate();
+
+  const handleSignUpClick = () => {
+    navigate("/signup");
+  };
   const rightSide = (
     <>
-      <button className={classes.signup_button}>Sign Up</button>
+      <button className={classes.signup_button} onClick={handleSignUpClick}>
+        Sign Up
+      </button>
     </>
   );
   return (

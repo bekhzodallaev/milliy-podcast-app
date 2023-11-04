@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
 
 import logo from "../../../../assets/logo.png";
@@ -11,10 +12,12 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ rightSide }) => (
   <div className={classes.navbar}>
     <div className={classes.container}>
-      <div className={classes.left_side}>
-        <img src={logo} alt="Logo" />
-        <img src={podcast} alt="Logo" className={classes.podcast_logo} />
-      </div>
+      <Link to={"/"}>
+        <div className={classes.left_side}>
+          <img src={logo} alt="Logo" />
+          <img src={podcast} alt="Logo" className={classes.podcast_logo} />
+        </div>
+      </Link>
       <div className={classes.right_side}>{rightSide}</div>
     </div>
   </div>
