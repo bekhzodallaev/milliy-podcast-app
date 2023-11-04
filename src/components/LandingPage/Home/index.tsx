@@ -22,13 +22,19 @@ function Home() {
         {/* TODO: Here should be Reusable Components */}
         <DiscoverComponent />
 
-        <FAQComponent />
-
+        {/* Testimonials */}
         <Testimonials />
+
         {/* Including Podcast Treasure */}
         <PodcastTreasure />
 
+        {/* Common questions */}
+        <FAQComponent />
+
+        {/* Newsletters */}
         <Newsletter />
+
+        {/* Footer */}
         <FooterComponent />
       </div>
     </div>
