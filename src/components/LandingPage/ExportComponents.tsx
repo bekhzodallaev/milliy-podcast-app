@@ -1,0 +1,9 @@
+export { default as Home } from "./Home";
+export { default as Welcome } from "./Auth";
+export { default as AboutUs } from "./AboutUs";
+export { default as SignIn } from "./Auth/SignIn";
+export { default as SignUp } from "./Auth/SignUp";
+export { default as ForgotPassword } from "./Auth/SignIn/ForgotPassword";
+export { default as SetNewPassword } from "./Auth/SignIn/ForgotPassword/ResetPassword/SetNewPassword";
+export { default as PasswordSuccessful } from "./Auth/SignIn/ForgotPassword/ResetPassword/PasswordSuccessful";
+export { default as VerifyAccount } from "./Auth/SignUp/VerifyAccount";

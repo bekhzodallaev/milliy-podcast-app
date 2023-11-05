@@ -1,13 +1,15 @@
 import React from "react";
-import Home from "../components/LandingPage/Home";
-import Welcome from "../components/LandingPage/Auth";
-import AboutUs from "../components/LandingPage/AboutUs";
-import SignIn from "../components/LandingPage/Auth/SignIn";
-import SignUp from "../components/LandingPage/Auth/SignUp";
-import ForgotPassword from "../components/LandingPage/Auth/SignIn/ForgotPassword";
-import SetNewPassword from "../components/LandingPage/Auth/SignIn/ForgotPassword/ResetPassword/SetNewPassword";
-import PasswordSuccessful from "../components/LandingPage/Auth/SignIn/ForgotPassword/ResetPassword/PasswordSuccessful";
-import VerifyAccount from "../components/LandingPage/Auth/SignUp/VerifyAccount";
+import {
+  Home,
+  Welcome,
+  AboutUs,
+  SignIn,
+  SignUp,
+  ForgotPassword,
+  SetNewPassword,
+  PasswordSuccessful,
+  VerifyAccount,
+} from "../components/LandingPage/ExportComponents";
 
 export interface Route {
   path: string;
