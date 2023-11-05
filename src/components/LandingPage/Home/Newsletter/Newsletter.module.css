@@ -47,7 +47,7 @@
   align-items: center;
   gap: 0.625rem;
   border-radius: 3.9375rem;
-  border: 1px solid var(--Black, #383b3a);
+  border: 1px solid #383b3a;
 }
 
 .subscribe_button {

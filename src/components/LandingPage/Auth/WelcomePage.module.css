@@ -109,7 +109,7 @@
   gap: 0.625rem;
   align-self: stretch;
   border-radius: 3.9375rem;
-  background: var(--Purple, #331cfe);
+  background: #331cfe;
   color: #fff;
   font-family: Clash Display;
   font-size: 1.125rem;
@@ -127,9 +127,9 @@
   gap: 0.625rem;
   align-self: stretch;
   border-radius: 3.9375rem;
-  border: 1px solid var(--Outline-Default, #d7d8d8);
+  border: 1px solid #d7d8d8;
   background: #fff;
-  color: var(--Black, #383b3a);
+  color: #383b3a;
   font-family: Clash Display;
   font-size: 1.125rem;
   font-style: normal;
