@@ -81,6 +81,10 @@
   border: 0.5px solid #fff;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.browse_episodes:hover {
+  background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
 }
 
 .become_podcaster {
