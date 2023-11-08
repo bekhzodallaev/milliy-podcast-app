@@ -54,6 +54,10 @@
   font-size: 0.875rem;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.navbar_links:hover {
+  border-bottom: 1px solid white;
 }
 .navbar_buttons ul li Link {
   color: #fff;
