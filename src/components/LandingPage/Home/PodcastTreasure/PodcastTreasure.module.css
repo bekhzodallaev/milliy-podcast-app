@@ -49,6 +49,10 @@
 }
 
 .create_account_button {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   color: #fff;
   display: flex;
   padding: 0.625rem 1.25rem;
