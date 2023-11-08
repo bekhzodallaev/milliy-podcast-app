@@ -1,0 +1,127 @@
+.welcome_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+.circle_container {
+  position: absolute;
+  top: 2.5rem;
+  left: 7.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arrow_left_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main_container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+.left_side {
+  background: url("./images/left_side.png"), 50% / cover no-repeat;
+  width: 31.25rem;
+  height: 28.125rem;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.125rem;
+}
+
+.podcast_logo {
+  display: flex;
+  padding: 0.3125rem 0.625rem;
+  align-items: center;
+  border-radius: 2.4375rem;
+  background: linear-gradient(90deg, #9e1f63 0.3%, #392d91 99.67%);
+}
+.podcast {
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+.logo_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+.main_title {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.main_title_content {
+  color: #000;
+  font-size: 2.25rem;
+
+  line-height: 1.78125rem; /* 79.167% */
+  letter-spacing: -0.03125rem;
+}
+
+.content_text {
+  width: 20.9375rem;
+  color: #6a6c6b;
+  text-align: center;
+
+  font-weight: 400;
+  line-height: 1.78125rem;
+  letter-spacing: -0.03125rem;
+}
+
+.login_buttons {
+  display: flex;
+  width: 25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9375rem;
+}
+
+.signin_button {
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 3.9375rem;
+  background: #331cfe;
+  color: #fff;
+  border: none;
+}
+
+.create_account_button {
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 3.9375rem;
+  border: 1px solid #d7d8d8;
+  background: #fff;
+  color: #383b3a;
+}
