@@ -50,7 +50,7 @@ const ForgotPassword = () => {
                 onClick={handleGoBackLoginClick}
               >
                 <AiOutlineArrowLeft />
-                Back to Login
+                <span className={classes.login_text}> Back to Login</span>
               </button>
             </div>
           </>

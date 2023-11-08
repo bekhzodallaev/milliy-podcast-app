@@ -28,6 +28,8 @@
 
 .container_content {
   color: rgba(56, 59, 58, 0.75);
+  margin-bottom: 1.875rem;
+  margin-top: 0.62rem;
 }
 
 .left_side {
@@ -36,18 +38,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1.875rem;
 }
 
 .email_input {
+  font-family: "Clash Display", sans-serif;
   display: flex;
   width: 20.4375rem;
-  height: 2.875rem;
+  /* height: 2.875rem; */
   padding: 0.625rem 1.25rem;
   align-items: center;
   gap: 0.625rem;
   border-radius: 3.9375rem;
   border: 1px solid #383b3a;
+  background: none;
 }
 
 .subscribe_button {
@@ -59,8 +62,13 @@
   gap: 0.625rem;
   border-radius: 3.9375rem;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+  transition: all 0.3s ease-in-out;
+  border: none;
+  font-family: "Clash Display", sans-serif;
 }
-
+.subscribe_button:hover {
+  background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
+}
 .input_button {
   display: flex;
   align-items: center;
@@ -79,6 +87,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 0.62rem;
 }
 
 .right_side_picture {

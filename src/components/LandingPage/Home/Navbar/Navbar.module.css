@@ -54,6 +54,10 @@
   font-size: 0.875rem;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.navbar_links:hover {
+  border-bottom: 1px solid white;
 }
 .navbar_buttons ul li Link {
   color: #fff;
@@ -69,6 +73,7 @@
   border-radius: 3.9375rem;
   border: 0.5px solid #fff;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+  transition: all 0.3s ease-in-out;
 }
 .signup_button button {
   color: #fff;
@@ -76,4 +81,8 @@
   outline: none;
   border: none;
   background: none;
+}
+.signup_button:hover {
+  cursor: pointer;
+  background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
 }
