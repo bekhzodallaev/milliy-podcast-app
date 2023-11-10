@@ -105,4 +105,32 @@
   width: 42.25rem;
   height: 34.3125rem;
   flex-shrink: 0;
+  background-position: center;
+}
+
+/* Media Queries */
+@media (min-width: 375px) and (max-width: 834px) {
+  .right_side {
+    width: 28.375rem;
+    background-position: center;
+    background-size: cover;
+  }
+  .main_text {
+    font-size: 1.75rem;
+  }
+  .left_side {
+    width: 22.625rem;
+  }
+  .main_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: flex-start !important;
+    float: left;
+    width: auto;
+  }
+  .main_container_1 {
+    padding-left: 3.75rem;
+    padding-right: 1.88rem;
+  }
 }
