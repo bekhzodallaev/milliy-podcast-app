@@ -86,3 +86,10 @@
   cursor: pointer;
   background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
 }
+
+/* Media queries */
+@media (min-width: 375px) and (max-width: 834px) {
+  .navbar {
+    padding: 1.25rem 3.75rem;
+  }
+}
