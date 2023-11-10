@@ -4,6 +4,7 @@
   align-items: center;
   row-gap: 17rem;
   align-items: center;
+  padding: 0rem 7.5rem;
 }
 
 .parent_container {
@@ -108,4 +109,23 @@
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+}
+
+/* Media queries */
+@media (min-width: 834px) and (max-width: 1280px) {
+  .image_container {
+    width: 18.125rem;
+  }
+  .podcast_info_main {
+    width: 24.5rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .info_text_big {
+    font-size: 1.375rem;
+  }
+  .info_text_small {
+    font-size: 0.9375rem;
+  }
 }
