@@ -5,6 +5,7 @@
   row-gap: 17rem;
   align-items: center;
   padding: 0rem 7.5rem;
+  width: 100%;
 }
 
 .parent_container {
@@ -13,6 +14,7 @@
   justify-content: center;
   align-items: center;
   gap: 4.375rem;
+  margin-top: 3.12rem;
 }
 
 .image_container {
@@ -112,12 +114,18 @@
 }
 
 /* Media queries */
-@media (min-width: 834px) and (max-width: 1280px) {
+@media (min-width: 835px) and (max-width: 1280px) {
+  .main_container {
+    padding: 0 3.75rem;
+    row-gap: 3.12rem;
+  }
   .image_container {
     width: 18.125rem;
+    height: 16.5rem;
   }
   .podcast_info_main {
     width: 24.5rem;
+    height: 16.5rem;
   }
   .heading {
     font-size: 1.5rem;
@@ -127,5 +135,18 @@
   }
   .info_text_small {
     font-size: 0.9375rem;
+  }
+  .info_parent_container {
+    width: 23.5rem;
+    height: 25.125rem;
+  }
+  .image_container_2 {
+    width: 17.485rem;
+  }
+  .image_container_2 img {
+    width: 100%;
+  }
+  .features_container {
+    gap: 1.875rem;
   }
 }
