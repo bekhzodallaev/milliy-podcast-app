@@ -46,3 +46,12 @@
   gap: 0.9375rem;
   align-self: stretch;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .faq_component {
+    width: 100%;
+  }
+  .faq_header_title {
+    font-size: 1.625rem;
+  }
+}
