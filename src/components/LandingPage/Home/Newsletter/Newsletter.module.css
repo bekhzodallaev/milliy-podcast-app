@@ -97,3 +97,22 @@
   height: 18.109rem;
   flex-shrink: 0;
 }
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .newsletter_main {
+    padding: 0rem 3.75rem;
+  }
+  .newsletter_container {
+    width: 100%;
+  }
+  .container_title {
+    font-size: 1.625rem;
+  }
+  .email_input {
+    width: 17.3125rem;
+  }
+  .right_side_picture {
+    width: 16rem;
+    background-position: center;
+    background-size: cover;
+  }
+}
