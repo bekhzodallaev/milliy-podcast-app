@@ -50,6 +50,7 @@
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   .faq_component {
     width: 100%;
+    padding: 3.75rem;
   }
   .faq_header_title {
     font-size: 1.625rem;
