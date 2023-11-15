@@ -119,6 +119,9 @@
     padding: 0 3.75rem;
     row-gap: 3.12rem;
   }
+  .parent_container {
+    width: 100%;
+  }
   .image_container {
     width: 18.125rem;
     height: 16.5rem;
