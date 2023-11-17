@@ -8,6 +8,10 @@
   box-sizing: border-box;
   margin-bottom: 10.12rem;
 }
+.carousel {
+  width: 64.9375rem;
+  height: 16rem;
+}
 .heading {
   font-size: 2.25rem;
   font-weight: 600;
@@ -42,7 +46,7 @@
   align-items: flex-start;
   gap: 0.625rem;
   background: #fff;
-
+  height: 12.1875rem;
   /* Pop up window shadow */
   box-shadow: 0px 1px 10px 0px rgba(161, 161, 161, 0.25);
   width: 19.125rem;
