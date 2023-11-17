@@ -39,10 +39,12 @@
 }
 /* Media queries */
 
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   .parentContainer {
     padding: 0 3.75rem;
     flex-wrap: wrap;
+    width: 100%;
+    gap: 0rem;
   }
 
   .reusableContainer {

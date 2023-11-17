@@ -47,7 +47,7 @@
   align-self: stretch;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   .faq_component {
     width: 100%;
     padding: 3.75rem;

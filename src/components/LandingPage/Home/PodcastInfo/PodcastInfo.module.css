@@ -114,7 +114,7 @@
 }
 
 /* Media queries */
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   .main_container {
     padding: 0 3.75rem;
     row-gap: 3.12rem;
@@ -123,11 +123,11 @@
     width: 100%;
   }
   .image_container {
-    width: 18.125rem;
+    max-width: 16.125rem;
     height: 16.5rem;
   }
   .podcast_info_main {
-    width: 24.5rem;
+    min-width: 24.5rem;
     height: 16.5rem;
   }
   .heading {

@@ -89,7 +89,14 @@
   align-items: flex-start;
   gap: 0.9375rem;
 }
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .container {
+    width: 100%;
+    padding: 0rem 3.75rem;
+  }
+  .carousel {
+    width: 100%;
+  }
   .heading {
     font-size: 1.5rem;
   }

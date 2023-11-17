@@ -88,7 +88,7 @@
 }
 
 /* Media queries */
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   .navbar {
     padding: 1.25rem 3.75rem;
   }

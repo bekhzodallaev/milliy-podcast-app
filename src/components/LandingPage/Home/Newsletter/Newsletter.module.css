@@ -97,7 +97,7 @@
   height: 18.109rem;
   flex-shrink: 0;
 }
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   .newsletter_main {
     padding: 0rem 3.75rem;
   }
