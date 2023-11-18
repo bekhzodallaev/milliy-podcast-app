@@ -8,6 +8,7 @@
   align-items: center;
   gap: 0.625rem;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .main_container {
@@ -67,4 +68,22 @@
 }
 .create_account_button:hover {
   background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
+}
+
+/* CSS MEDIA QUERIES */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .podcast_treasure {
+    padding: 0rem 3.75rem;
+    width: 100%;
+  }
+  .main_container {
+    width: 100%;
+  }
+
+  .unlock_treasure {
+    font-size: 1.875rem;
+  }
+  .main_container_content {
+    width: 26.9375rem;
+  }
 }

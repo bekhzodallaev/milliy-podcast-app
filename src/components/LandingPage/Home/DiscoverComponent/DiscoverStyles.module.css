@@ -37,3 +37,27 @@
   width: 22.9375rem;
   line-height: normal;
 }
+/* Media queries */
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .parentContainer {
+    padding: 0 3.75rem;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0rem;
+  }
+
+  .reusableContainer {
+    width: 21.5625rem;
+    height: 15.75rem;
+  }
+  .reusableContainer img {
+    width: 6.11938rem;
+  }
+  .headingText {
+    font-size: 1.375rem;
+  }
+  .text {
+    font-size: 0.9375rem;
+  }
+}

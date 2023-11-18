@@ -66,3 +66,15 @@
   color: #fff;
   font-size: 0.875rem;
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .footer_container {
+    padding: 3.125rem 3.75rem;
+  }
+  .footer_info {
+    width: 100%;
+  }
+  .footer_details {
+    width: 100%;
+  }
+}

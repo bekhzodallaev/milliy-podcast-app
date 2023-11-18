@@ -78,7 +78,6 @@
 .main_title_content {
   color: #000;
   font-size: 2.25rem;
-
   line-height: 1.78125rem; /* 79.167% */
   letter-spacing: -0.03125rem;
 }
@@ -135,4 +134,16 @@
 }
 .create_account_button:hover {
   background: #f6f6f6;
+}
+/* Media queries */
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .welcome_page {
+    width: 100%;
+  }
+  .main_container {
+    display: block;
+  }
+  .circle_container {
+    left: 3.75rem;
+  }
 }
