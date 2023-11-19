@@ -9,7 +9,7 @@ import {
   SetNewPassword,
   PasswordSuccessful,
   VerifyAccount,
-} from "../components/LandingPage/ExportComponents";
+} from "../pages/LandingPage/ExportComponents";
 
 export interface Route {
   path: string;
