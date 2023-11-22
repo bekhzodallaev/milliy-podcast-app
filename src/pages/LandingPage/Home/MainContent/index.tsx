@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./MainContent.module.css";
-import ArrowRight from "../../../../assets/arrow-right.svg";
+import ArrowRight from "../../../../assets/LandingPageAssets/HomePage/MainContentAssets/arrow-right.svg";
 import Navbar from "../Navbar/Navbar";
 
 const MainContent: React.FC = (props) => {

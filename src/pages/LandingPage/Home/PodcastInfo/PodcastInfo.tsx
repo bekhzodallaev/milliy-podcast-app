@@ -1,9 +1,9 @@
 import classes from "./PodcastInfo.module.css";
 
-import Image1 from "../../../../assets/image-noise-texture-1.png";
-import ImageAudio from "../../../../assets/image-audio.png";
-import ImageVideo from "../../../../assets/image-video.png";
-import Image2 from "../../../../assets/image-noise-texture-2.png";
+import Image1 from "../../../../assets/LandingPageAssets/HomePage/PodcastInfoAssets/image-noise-texture-1.png";
+import ImageAudio from "../../../../assets/LandingPageAssets/HomePage/PodcastInfoAssets/image-audio.png";
+import ImageVideo from "../../../../assets/LandingPageAssets/HomePage/PodcastInfoAssets/image-video.png";
+import Image2 from "../../../../assets/LandingPageAssets/HomePage/PodcastInfoAssets/image-noise-texture-2.png";
 
 function PodcastInfo() {
   return (

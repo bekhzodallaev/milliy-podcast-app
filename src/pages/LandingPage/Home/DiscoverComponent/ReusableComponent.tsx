@@ -1,4 +1,4 @@
-import ImagePlaying from "../../../../assets/image-playing.png";
+import ImagePlaying from "../../../../assets/LandingPageAssets/HomePage/DiscoverAssets/image-playing.png";
 import styles from "./DiscoverStyles.module.css";
 interface ReusableComponentProps {
   heading: string;

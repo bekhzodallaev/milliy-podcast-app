@@ -1,5 +1,5 @@
-import ManAvatar from "../../../../assets/image-avatar-man.png";
-import WomanAvatar from "../../../../assets/image-avatar-women.png";
+import ManAvatar from "../../../../assets/LandingPageAssets/HomePage/TestimonialsAssets/image-avatar-man.png";
+import WomanAvatar from "../../../../assets/LandingPageAssets/HomePage/TestimonialsAssets/image-avatar-women.png";
 
 export const responsive = {
   desktop: {

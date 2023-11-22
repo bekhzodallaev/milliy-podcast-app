@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
-import Logo from "../../../../assets/logo.png";
-import PodcastLogo from "../../../../assets/podcast.svg";
+import Logo from "../../../../assets/Logo/logo.png";
+import PodcastLogo from "../../../../assets/Logo/podcast.svg";
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();

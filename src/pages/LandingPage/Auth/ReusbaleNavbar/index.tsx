@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
 
-import logo from "../../../../assets/logo.png";
+import logo from "../../../../assets/Logo/logo.png";
 import podcast from "../images/podcast.png";
 
 interface NavbarProps {

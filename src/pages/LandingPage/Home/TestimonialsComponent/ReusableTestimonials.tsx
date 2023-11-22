@@ -1,5 +1,5 @@
 import React from "react";
-import StarImage from "../../../../assets/image-star.svg";
+import StarImage from "../../../../assets/LandingPageAssets/HomePage/TestimonialsAssets/image-star.svg";
 import classes from "./Testimonials.module.css";
 interface ReusableTestimonialsProps {
   comment: string;
