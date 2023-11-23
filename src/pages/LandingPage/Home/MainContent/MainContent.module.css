@@ -110,6 +110,34 @@
 }
 
 /* Media Queries */
+
+/* Phone version */
+@media only screen and (max-width: 799px) {
+  .main_content {
+    height: auto;
+  }
+  .main_container_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem 1.25rem;
+    height: auto;
+  }
+
+  .left_side {
+    order: 1;
+  }
+  .main_buttons {
+    margin-bottom: 3.62rem;
+    margin-top: 2.84rem;
+    flex-direction: column;
+  }
+  .main_text {
+    font-size: 1.75rem;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .right_side {
     width: 28.375rem;

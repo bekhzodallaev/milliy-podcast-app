@@ -23,7 +23,19 @@
   flex-shrink: 0;
   margin-bottom: 3.81rem;
 }
-
+.menu_icon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  display: none;
+}
+.menu_vector {
+  height: 2px;
+}
+.last_vector {
+  width: 13px;
+  height: 2px;
+}
 .navbar_container {
   display: flex;
   justify-content: space-between;
@@ -88,6 +100,22 @@
 }
 
 /* Media queries */
+/* Phone version */
+@media only screen and (max-width: 799px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 0rem 1.25rem;
+  }
+  .menu_icon {
+    display: flex;
+  }
+  .navbar_buttons {
+    display: none;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .navbar {
     padding: 1.25rem 3.75rem;
