@@ -4,7 +4,8 @@
   padding: 0;
 }
 .main_content {
-  background: url(../../../../assets/bg-gradient.png), lightgray 50%;
+  background: url(../../../../assets/LandingPageAssets/HomePage/MainContentAssets/bg-gradient.png),
+    lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 52rem;
@@ -99,7 +100,7 @@
   -webkit-text-fill-color: transparent;
 }
 .right_side {
-  background: url(../../../../assets/rightside.png),
+  background: url(../../../../assets/LandingPageAssets/HomePage/MainContentAssets/rightside.png),
     lightgray -91.8px 0px / 113.698% 100% no-repeat;
   mix-blend-mode: lighten;
   width: 42.25rem;

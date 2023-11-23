@@ -3,8 +3,8 @@ import classes from "./WelcomePage.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import { AiOutlineLeft } from "react-icons/ai";
 
-import podcast from "../../../assets/podcast.svg";
-import logo from "../../../assets/logo.png";
+import podcast from "../../../assets/Logo/podcast.svg";
+import logo from "../../../assets/Logo/logo.png";
 
 const Welcome = () => {
   const navigate = useNavigate();
