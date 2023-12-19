@@ -120,6 +120,7 @@
   .main_container {
     width: 100%;
     padding: 1.25rem;
+    row-gap: 3.12rem;
   }
   .parent_container {
     width: 100%;
