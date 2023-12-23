@@ -47,6 +47,26 @@
   align-self: stretch;
 }
 
+/* Media queries */
+
+/* Phone version */
+@media only screen and (max-width: 799px) {
+  .faq_header_title {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+  .faq_component {
+    width: 100%;
+    padding: 0rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.13rem;
+    margin-bottom: 3.14rem;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .faq_component {
     width: 100%;
