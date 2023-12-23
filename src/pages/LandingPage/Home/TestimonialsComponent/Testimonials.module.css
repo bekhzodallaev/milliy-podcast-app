@@ -89,6 +89,43 @@
   align-items: flex-start;
   gap: 0.9375rem;
 }
+
+/* Media queries */
+
+/* Phone version */
+@media only screen and (max-width: 799px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 1.375rem;
+  }
+  .text {
+    font-size: 0.8125rem;
+  }
+  .testimonials_card {
+    width: 100%;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .testimonials_card_container {
+    width: 100%;
+    align-items: center;
+    box-shadow: none;
+  }
+  .user_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment {
+    font-size: 0.8125rem;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .container {
     width: 100%;
