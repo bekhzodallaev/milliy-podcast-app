@@ -141,11 +141,6 @@
   }
 }
 
-/* Phone version */
-@media only screen and (max-width: 799px) {
-  
-}
-
 
 /* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
