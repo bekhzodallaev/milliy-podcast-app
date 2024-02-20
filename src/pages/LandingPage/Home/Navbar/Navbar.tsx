@@ -3,6 +3,9 @@ import { useNavigate, Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/Logo/logo.png";
 import PodcastLogo from "../../../../assets/Logo/podcast.svg";
+import MenuVector1 from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 1.svg";
+import MenuVector2 from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 1.svg";
+import MenuVector3 from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 3.svg";
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
@@ -18,6 +21,23 @@ const Navbar: React.FC = () => {
     <nav className={classes.navbar}>
       <div className={classes.navbar_container}>
         <div className={classes.navbar_logo}>
+          <div className={classes.menu_icon}>
+            <img
+              src={MenuVector1}
+              alt="Menu Logo"
+              className={classes.menu_vector}
+            />
+            <img
+              src={MenuVector2}
+              alt="Menu Logo"
+              className={classes.menu_vector}
+            />
+            <img
+              src={MenuVector3}
+              alt="Menu Logo"
+              className={classes.last_vector}
+            />
+          </div>
           <img src={Logo} alt="Main Logo" />
           <img src={PodcastLogo} alt="Podcast Logo" />
         </div>

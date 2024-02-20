@@ -67,6 +67,23 @@
   font-size: 0.875rem;
 }
 
+/* Media queries */
+
+/* Phone version */
+@media only screen and (max-width: 799px) {
+  .footer_container {
+    width: 100%;
+    padding: 1.25rem;
+  }
+  .footer_info {
+    width: 100%;
+  }
+  .footer_details {
+    width: 100%;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .footer_container {
     padding: 3.125rem 3.75rem;
@@ -76,5 +93,9 @@
   }
   .footer_details {
     width: 100%;
+  }
+  .links ul {
+    align-items: flex-start;
+    float: none;
   }
 }

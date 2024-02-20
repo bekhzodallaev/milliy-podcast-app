@@ -97,6 +97,41 @@
   height: 18.109rem;
   flex-shrink: 0;
 }
+
+/* Media queries */
+
+/* Phone versions */
+@media only screen and (max-width: 799px) {
+  .newsletter_main {
+    width: 100%;
+  }
+  .newsletter_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container_title {
+    font-size: 1.5rem;
+  }
+  .input_button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .subscribe_button {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .email_input {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .footer_content {
+    width: 100%;
+  }
+}
+
+/* Tablet versions */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .newsletter_main {
     padding: 0rem 3.75rem;

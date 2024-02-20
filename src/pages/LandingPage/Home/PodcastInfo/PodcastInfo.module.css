@@ -114,6 +114,44 @@
 }
 
 /* Media queries */
+/* Phone version */
+
+@media only screen and (max-width: 799px) {
+  .main_container {
+    width: 100%;
+    padding: 1.25rem;
+    row-gap: 3.12rem;
+  }
+  .parent_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image_container {
+    order: 1;
+  }
+  .platform_info_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .info_text_big {
+    font-size: 1.375rem;
+  }
+  .info_text_small {
+    font-size: 0.9375rem;
+  }
+  .audio_container,
+  .video_container {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Tablet version */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
   .main_container {
     padding: 0 3.75rem;
