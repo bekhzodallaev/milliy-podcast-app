@@ -22,12 +22,9 @@ function Testimonials() {
     <div className={classes.container}>
       <div className={classes.texts}>
         <p className={classes.heading}>What Our Customers Say</p>
-        <p className={classes.text}>
-          Read testimonials from satisfied users and industry figures
-        </p>
       </div>
       <Carousel
-        arrows={false}
+        arrows={true}
         className={classes.carousel}
         responsive={responsive}
         showDots={true}

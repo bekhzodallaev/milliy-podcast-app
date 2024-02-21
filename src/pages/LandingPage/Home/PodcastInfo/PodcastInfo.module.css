@@ -121,18 +121,30 @@
     width: 100%;
     padding: 1.25rem;
     row-gap: 3.12rem;
+    display: flex;
   }
   .parent_container {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .image_container {
+  .podcast_info_main {
+    width: 100%;
+  }
+  .podcast_info_child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .podcast_info_ .image_container {
     order: 1;
   }
+
   .platform_info_container {
     display: flex;
     flex-direction: column;
+    row-gap: 1.25rem;
   }
   .heading {
     font-size: 1.5rem;
@@ -148,6 +160,19 @@
   .video_container {
     width: 100%;
     text-align: center;
+    align-items: center;
+  }
+  .parent_container .image_container {
+    width: 100%;
+  }
+  .image_container_2 {
+    width: 100%;
+  }
+  .image_container_2 img {
+    width: 100%;
+  }
+  .parent_container {
+    gap: 1.875rem;
   }
 }
 
