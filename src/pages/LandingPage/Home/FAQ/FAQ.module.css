@@ -55,6 +55,9 @@
     font-size: 1.5rem;
     margin: 0 auto;
   }
+  .faq_header_content {
+    text-align: center;
+  }
   .faq_component {
     width: 100%;
     padding: 0rem 1.25rem;
