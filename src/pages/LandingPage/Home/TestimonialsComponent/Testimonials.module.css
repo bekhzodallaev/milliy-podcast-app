@@ -22,6 +22,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 .texts {
   margin-bottom: 3.5rem;
@@ -120,8 +121,14 @@
     display: flex;
     flex-direction: column;
   }
+  .user_info_details {
+    text-align: center;
+  }
   .comment {
     font-size: 0.8125rem;
+  }
+  .texts {
+    margin-bottom: 0;
   }
 }
 

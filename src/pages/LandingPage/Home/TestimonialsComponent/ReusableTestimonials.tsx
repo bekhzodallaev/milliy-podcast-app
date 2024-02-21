@@ -16,13 +16,6 @@ const ReusableTestimonials: React.FC<ReusableTestimonialsProps> = ({
   return (
     <div className={classes.testimonials_card_container}>
       <div className={classes.comment_container}>
-        <div className={classes.rating}>
-          <img src={StarImage} alt="" />
-          <img src={StarImage} alt="" />
-          <img src={StarImage} alt="" />
-          <img src={StarImage} alt="" />
-          <img src={StarImage} alt="" />
-        </div>
         <p className={classes.comment}>{comment}</p>
       </div>
       <div className={classes.user_info}>

@@ -21,7 +21,7 @@ export const responsive = {
 export const testimonialsData = [
   {
     comment:
-      "I love how user-friendly this website is. It's has made exploring new podcasts a breeze",
+      "I love how user-friendly this website is. It's has made exploring new podcasts a breeze.",
     image: ManAvatar,
     name: "Mark Davis",
     profession: "Podcast Producer, XYZ",
