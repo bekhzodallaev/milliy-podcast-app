@@ -103,15 +103,35 @@
 /* Phone version */
 @media only screen and (max-width: 799px) {
   .navbar {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     padding: 0rem 1.25rem;
+    position: fixed;
+    z-index: 1000;
   }
   .menu_icon {
     display: flex;
+    cursor: pointer;
   }
   .navbar_buttons {
-    display: none;
+    position: fixed;
+    width: 100%;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 10rem;
+    z-index: 100;
+  }
+
+  .navbar_buttons ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+    position: fixed;
+    left: 20px;
+    top: 6rem;
   }
 }
 
