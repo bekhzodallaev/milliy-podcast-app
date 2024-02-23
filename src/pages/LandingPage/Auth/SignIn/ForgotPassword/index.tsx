@@ -20,8 +20,9 @@ const ForgotPassword = () => {
 
   return (
     <div>
-      <Navbar />
-
+      <div className={classes.navbar}>
+        <Navbar />
+      </div>
       <div className={classes.main_container}>
         {!emailSent ? ( // Conditional rendering based on emailSent state
           <>
