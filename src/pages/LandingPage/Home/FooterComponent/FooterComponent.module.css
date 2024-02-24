@@ -80,6 +80,7 @@
   }
   .footer_details {
     width: 100%;
+    column-gap: 1rem;
   }
 }
 

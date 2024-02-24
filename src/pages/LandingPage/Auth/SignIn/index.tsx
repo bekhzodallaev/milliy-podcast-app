@@ -11,17 +11,10 @@ const SignIn = () => {
   const handleSignUpClick = () => {
     navigate("/signup");
   };
-  const rightSide = (
-    <>
-      <button className={classes.signup_button} onClick={handleSignUpClick}>
-        Sign Up
-      </button>
-    </>
-  );
+
   return (
     <div>
-      <Navbar rightSide={rightSide} />
-
+      <Navbar />
       <div className={classes.main_container}>
         <div className={classes.title_container}>
           <p className={classes.title_container_title}>Let's join with us</p>
