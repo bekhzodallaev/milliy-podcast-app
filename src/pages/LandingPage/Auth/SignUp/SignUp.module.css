@@ -127,3 +127,25 @@
   text-align: center;
   font-size: 1rem;
 }
+/* For Mobile version responsive */
+@media only screen and (max-width: 799px) {
+  .title_container_title {
+    font-size: 1.5rem;
+  }
+  .title_container_content {
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+  }
+  .input_container {
+    width: 100%;
+  }
+  .buttons_container {
+    width: 100%;
+  }
+  .signin_button,
+  .google_signin {
+    width: 100%;
+  }
+}
