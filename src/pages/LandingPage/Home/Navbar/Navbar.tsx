@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
           <img src={PodcastLogo} alt="Podcast Logo" />
         </div>
         {toggle && (
-          <div className={classes.navbar_buttons}>
+          <div className={`${classes.mobile_links}`}>
             <ul>
               <li>
                 <Link to="/aboutus" className={classes.navbar_links}>
@@ -75,6 +75,26 @@ const Navbar: React.FC = () => {
             </ul>
           </div>
         )}
+        <div className={classes.navbar_buttons}>
+          <ul>
+            <li>
+              <Link to="/aboutus" className={classes.navbar_links}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/faq" className={classes.navbar_links}>
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className={classes.navbar_links}>
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+
         <div className={classes.signup_button}>
           <button className="singup_btn" onClick={handleSignUpClick}>
             Sign Up

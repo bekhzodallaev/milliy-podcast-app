@@ -76,7 +76,9 @@
   font-size: 0.875rem;
   text-decoration: none;
 }
-
+.mobile_links {
+  display: none;
+}
 .signup_button {
   padding: 0.625rem 1.25rem;
   justify-content: center;
@@ -109,11 +111,27 @@
     position: fixed;
     z-index: 1000;
   }
+  .mobile_links {
+    display: block;
+  }
+  .mobile_links ul li Link {
+    color: #fff;
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+  .mobile_links ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .mobile_links ul li {
+    list-style-type: none;
+  }
   .menu_icon {
     display: flex;
     cursor: pointer;
   }
-  .navbar_buttons {
+  .mobile_links {
     position: fixed;
     width: 100%;
     top: 5rem;
@@ -124,7 +142,7 @@
     z-index: 100;
   }
 
-  .navbar_buttons ul {
+  .mobile_links ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -132,6 +150,9 @@
     position: fixed;
     left: 20px;
     top: 6rem;
+  }
+  .navbar_buttons {
+    display: none;
   }
 }
 
