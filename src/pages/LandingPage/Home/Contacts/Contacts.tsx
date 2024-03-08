@@ -94,24 +94,28 @@ const AboutUs = () => {
           imageSrc={InstaLogo}
           imgDescription="Instagram Logo"
           link="https://www.instagram.com/"
+          className={styles.card}
         />
         <ReusableContacts
           title="Linkedin"
           imageSrc={LinkedinLogo}
           imgDescription="Linkedin Logo"
           link="https://www.linkedin.com/in/bekallaev/"
+          className={styles.card}
         />
         <ReusableContacts
           title="WhatsApp"
           imageSrc={WhatsAppLogo}
           imgDescription="WhatsApp Logo"
           link="https://www.whatsapp.com/?lang=en"
+          className={styles.card}
         />
         <ReusableContacts
           title="Telegram"
           imageSrc={TelegramLogo}
           imgDescription="Telegram Logo"
           link="https://web.telegram.org/k/"
+          className={styles.card}
         />
       </div>
     </div>

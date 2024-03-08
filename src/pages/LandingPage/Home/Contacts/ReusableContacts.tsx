@@ -5,15 +5,17 @@ interface ContactProps {
   title: string;
   imgDescription: string;
   link: string;
+  className: string;
 }
 const ReusableContacts: React.FC<ContactProps> = ({
   imageSrc,
   title,
   imgDescription,
   link,
+  className,
 }) => {
   return (
-    <div className={styles.card_container}>
+    <div className={`${styles.card_container} ${className} `}>
       <img src={imageSrc} alt={imgDescription} />
       <h3 className={styles.contact_title}>{title}</h3>
       <button className={styles.contact_btn}>

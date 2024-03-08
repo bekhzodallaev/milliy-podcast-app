@@ -136,15 +136,15 @@ textarea {
   padding: 2.1875rem 1.5625rem;
   align-items: flex-start;
   gap: 1.25rem;
-  flex: 1 0 0;
   align-self: stretch;
+  width: 14.375rem;
 }
 .parent_card_container {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  column-gap: 1.25rem;
   margin-bottom: 16.25rem;
+  flex-wrap: wrap;
 }
 .contact_btn {
   display: flex;
@@ -181,4 +181,32 @@ textarea {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: start;
+}
+
+/* Mobile version responsive */
+
+/* Tablet version responsive */
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .title {
+    font-size: 1.875rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .contacts {
+    width: 100%;
+  }
+  .container {
+    padding: 0rem 3.75rem;
+  }
+  .form_submit {
+    width: 100%;
+  }
+
+  .card {
+    flex: 1 0 calc(50% - 1.25rem / 2); /* Set flex-basis to 50% with a margin between cards */
+    box-sizing: border-box;
+    flex-grow: 0;
+    margin-bottom: 1.25rem;
+  }
 }
