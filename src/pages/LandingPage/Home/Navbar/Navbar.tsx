@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
 import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/Logo/logo.png";
 import PodcastLogo from "../../../../assets/Logo/podcast.svg";
@@ -58,17 +59,35 @@ const Navbar: React.FC = () => {
           <div className={`${classes.mobile_links}`}>
             <ul>
               <li>
-                <Link to="/aboutus" className={classes.navbar_links}>
+                <Link
+                  to="aboutus"
+                  className={classes.navbar_links}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className={classes.navbar_links}>
+                <Link
+                  to="faq"
+                  className={classes.navbar_links}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                >
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className={classes.navbar_links}>
+                <Link
+                  to="contact"
+                  className={classes.navbar_links}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                >
                   Contact
                 </Link>
               </li>
@@ -78,17 +97,35 @@ const Navbar: React.FC = () => {
         <div className={classes.navbar_buttons}>
           <ul>
             <li>
-              <Link to="/aboutus" className={classes.navbar_links}>
+              <Link
+                to="aboutus"
+                className={classes.navbar_links}
+                spy={true}
+                smooth={true}
+                offset={-100}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link to="/faq" className={classes.navbar_links}>
+              <Link
+                to="faq"
+                className={classes.navbar_links}
+                spy={true}
+                smooth={true}
+                offset={-100}
+              >
                 FAQ
               </Link>
             </li>
             <li>
-              <Link to="/contact" className={classes.navbar_links}>
+              <Link
+                to="contact"
+                className={classes.navbar_links}
+                spy={true}
+                smooth={true}
+                offset={-100}
+              >
                 Contact
               </Link>
             </li>

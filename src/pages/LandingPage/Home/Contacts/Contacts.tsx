@@ -11,7 +11,7 @@ import ReusableContacts from "./ReusableContacts";
 
 const AboutUs = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <div className={styles.introduction}>
         <h1 className={styles.title}>Let's work together</h1>
         <p className={styles.text}>

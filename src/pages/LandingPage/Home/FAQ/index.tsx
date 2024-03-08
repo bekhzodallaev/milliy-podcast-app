@@ -6,7 +6,7 @@ import classes from "./FAQ.module.css";
 
 const FAQComponent: React.FC = () => {
   return (
-    <div className={classes.faq_component}>
+    <div className={classes.faq_component} id="faq">
       <div className={classes.faq_header}>
         <p className={classes.faq_header_title}>FAQs</p>
         <p className={classes.faq_header_content}>
