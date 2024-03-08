@@ -1,0 +1,184 @@
+.container {
+  width: 100%;
+  padding: 0rem 17.25rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.contacts {
+  border-radius: 2.1875rem;
+  border: 1px solid var(--Light-Stroke, #e1e0ff);
+  background: #fbfbfe;
+  box-shadow: 0px 1px 10px 0px rgba(54, 50, 255, 0.05);
+  display: flex;
+  padding: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  align-self: stretch;
+}
+.email,
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.contact_text {
+  color: var(--P-color, #37375a);
+  font-family: "Clash Display";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem; /* 125% */
+}
+.title {
+  text-align: center;
+  font-family: "Clash Display";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(90deg, #9b2065 0%, #392d91 46.47%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.94rem;
+}
+.text {
+  color: #000;
+  text-align: center;
+  font-family: "Clash Display";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.form_submit {
+  padding: 2.5rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  align-self: stretch;
+  border-radius: 2.1875rem;
+  border: 1px solid var(--Light-Stroke, #e1e0ff);
+  background: #fbfbfe;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Drop shadow */
+  box-shadow: 0px 1px 13.5px 0px rgba(54, 50, 255, 0.1);
+}
+.form_submit input,
+.form_submit select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+  border-radius: 3.125rem;
+  border: 1px solid var(--Light-Stroke, #e1e0ff);
+  background: #fbfbfe;
+  box-shadow: 0px 1px 10px 0px rgba(54, 50, 255, 0.05);
+  height: 2.9375rem;
+  padding: 0rem 1.25rem;
+  width: 17.5rem;
+}
+
+label {
+  margin-bottom: 0.62rem;
+}
+input,
+select,
+textarea {
+  margin-top: 0.62rem;
+}
+.input_subject {
+  grid-column: span 2;
+}
+.input_textarea {
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1px solid var(--Light-Stroke, #e1e0ff);
+  background: #fbfbfe;
+  box-shadow: 0px 1px 10px 0px rgba(54, 50, 255, 0.05);
+  display: flex;
+  height: 6.25rem;
+  padding: 0.9375rem 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  align-self: stretch;
+  resize: none;
+}
+.submit {
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.9375rem;
+  border: 0.5px solid #fff;
+  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+  color: #fff;
+  width: max-content;
+}
+.card_container {
+  border-radius: 2.1875rem;
+  border: 1px solid var(--Light-Stroke, #e1e0ff);
+  background: #fbfbfe;
+  box-shadow: 0px 1px 15px 0px rgba(54, 50, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  padding: 2.1875rem 1.5625rem;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.parent_card_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.25rem;
+  margin-bottom: 16.25rem;
+}
+.contact_btn {
+  display: flex;
+  height: 2.9375rem;
+  padding: 0rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 3.125rem;
+  border: 1px solid var(--Primary-Color, #3632ff);
+  color: var(--Primary-Color, #3632ff);
+  font-family: "Clash Display";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  background-color: white;
+}
+.contact_btn a {
+  text-decoration: none;
+  color: var(--Primary-Color, #3632ff);
+}
+.contact_title {
+  font-size: 1.375rem;
+}
+.heading {
+  font-family: "Clash Display";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(90deg, #9b2065 0%, #392d91 46.47%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: start;
+}
