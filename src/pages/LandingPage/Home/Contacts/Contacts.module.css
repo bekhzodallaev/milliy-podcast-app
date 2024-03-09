@@ -170,6 +170,19 @@ textarea {
 .contact_title {
   font-size: 1.375rem;
 }
+.image_container {
+  display: flex;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  padding: 0.375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  flex-shrink: 0;
+  border-radius: 0.70313rem;
+  background: #eae9ff;
+}
 .heading {
   font-family: "Clash Display";
   font-size: 1.875rem;
@@ -184,6 +197,56 @@ textarea {
 }
 
 /* Mobile version responsive */
+@media only screen and (max-width: 799px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 0 1.25rem;
+  }
+  .text {
+    font-size: 0.875rem;
+  }
+  .contacts {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 3.12rem;
+    align-items: flex-start;
+  }
+  .form_submit {
+    width: 100%;
+    padding: 1.25rem 0.94rem;
+    display: block;
+  }
+  .form_submit input,
+  .form_submit select,
+  .form_submit textarea {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .submit {
+    margin-top: 1.25rem;
+  }
+  .input_subject {
+    margin-top: 2.5rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .parent_card_container {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.25rem;
+    margin-bottom: 2.75rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .contact_title {
+    font-size: 1rem;
+  }
+}
 
 /* Tablet version responsive */
 @media only screen and (min-width: 800px) and (max-width: 1023px) {

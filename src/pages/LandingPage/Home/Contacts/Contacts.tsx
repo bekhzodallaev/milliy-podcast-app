@@ -22,11 +22,17 @@ const AboutUs = () => {
       </div>
       <div className={styles.contacts}>
         <div className={styles.email}>
-          <img src={EmailLogo} alt="" />
+          <div className={styles.image_container}>
+            {" "}
+            <img src={EmailLogo} alt="" />
+          </div>
           <p className={styles.contact_text}>contact@podcast.app</p>
         </div>
         <div className={styles.number}>
-          <img src={PhoneLogo} alt="" />
+          <div className={styles.image_container}>
+            {" "}
+            <img src={PhoneLogo} alt="" />
+          </div>
           <p className={styles.contact_text}>(48) 123 456 789</p>
         </div>
       </div>
@@ -41,7 +47,11 @@ const AboutUs = () => {
         </div>
         <div className={styles.input_role}>
           <label htmlFor="role">Role</label>
-          <select name="role" id="role" placeholder="Choose your role">
+          <select name="role" id="role">
+            <option value="" disabled selected>
+              Choose your role
+            </option>
+
             <option value="user">User</option>
             <option value="podcaster">Podcaster</option>
           </select>
@@ -57,6 +67,9 @@ const AboutUs = () => {
         <div className={styles.input_country}>
           <label htmlFor="country">Country</label>
           <select name="country" id="country">
+            <option value="" disabled selected>
+              Select your country
+            </option>
             <option value="USA">USA</option>
             <option value="England">England</option>
             <option value="Japan">Japan</option>
