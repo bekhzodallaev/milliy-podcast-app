@@ -146,6 +146,7 @@
     padding: 1.25rem;
     align-items: center;
     justify-content: center;
+    height: max-content;
   }
   .left_side {
     margin-top: 9.38rem;
@@ -162,6 +163,12 @@
   .login_buttons {
     width: 100%;
     align-items: center;
+  }
+  .main_title_content {
+    font-size: 1.5rem;
+  }
+  .content_text {
+    font-size: 1.0625rem;
   }
 }
 
