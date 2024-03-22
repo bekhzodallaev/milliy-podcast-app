@@ -10,10 +10,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <div className="app">
-        <App />
-      </div>
-    </BrowserRouter>
+    <React.Suspense fallback="Loading...">
+      <BrowserRouter>
+        <div className="app">
+          <App />
+        </div>
+      </BrowserRouter>
+    </React.Suspense>
   </React.StrictMode>
 );
