@@ -21,5 +21,13 @@
     "info-text2": "Listen at your preferred pace with adjustable playback speed",
     "f4heading": "Discover New Content",
     "info-text3": "Explore a wide range of podcasts and videos to expand your horizons"
+  },
+  "discoverPage": {
+    "heading1": "Easily Search, Subscribe and Download Episodes",
+    "heading2": "Discover New Podcasts and Episodes",
+    "heading3": "Personalize Your Podcast Listening Experience",
+    "text1": " Our podcast app allows you to effortlessly search for your  favorite shows, subscribe, and download episodes for offline listening",
+    "text2": "Explore a vast library of podcasts and find new episodes to enjoy, all within our user-friendly app.",
+    "text3": " Customize your podcast feed, create playlists, and receive personalized recommendations based on your interests."
   }
 }
