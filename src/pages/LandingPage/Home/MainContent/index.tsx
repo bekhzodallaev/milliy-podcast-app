@@ -11,17 +11,17 @@ const MainContent: React.FC = (props) => {
       <Navbar />
       <div className={classes.main_container_1}>
         <div className={classes.left_side}>
-          <div className={classes.main_text}>{t("discoverHeading")}</div>
+          <div className={classes.main_text}>{t("mainContent.main-text")}</div>
           <div className={classes.content_text}>
-            Experience a new way to enjoy podcasts with our innovative app.
-            Browse, and share your favorite shows anytime, anywhere.
+            {t("mainContent.content-text")}
           </div>
           <div className={classes.main_buttons}>
             <button className={classes.browse_episodes}>
-              Browse Episodes <img src={ArrowRight} alt="" />{" "}
+              {t("mainContent.browse-episodes")}
+              <img src={ArrowRight} alt="" />{" "}
             </button>
             <button className={classes.become_podcaster}>
-              <span> Become a podcaster</span>
+              <span>{t("mainContent.become-podcaster")}</span>
             </button>
           </div>
         </div>

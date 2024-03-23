@@ -1,7 +1,14 @@
 {
-  "discoverHeading": "Discover world of podcasts with us",
-  "about": "About",
-  "faq": "FAQ",
-  "contact": "Contact",
-  "sign_up": "Sign Up"
+  "navbar": {
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "sign_up": "Sign Up"
+  },
+  "mainContent": {
+    "main-text": "Discover world of podcasts with us",
+    "content-text": "Experience a new way to enjoy podcasts with our innovative app. Browse, and share your favorite shows anytime, anywhere.",
+    "browse-episodes": " Browse Episodes",
+    "become-podcaster": "Become a podcaster"
+  }
 }

@@ -1,7 +1,14 @@
 {
-  "discoverHeading": "Podcastlar dunyosini biz bilan kashf qiling",
-  "about": "Haqida",
-  "faq": "Savollar",
-  "contact": "Aloqa",
-  "sign_up": "Ro'yxatdan O'tish"
+  "navbar": {
+    "about": "Haqida",
+    "faq": "Savollar",
+    "contact": "Aloqa",
+    "sign_up": "Ro'yxatdan O'tish"
+  },
+  "mainContent": {
+    "main-text": "Podcastlar dunyosini biz bilan kashf qiling",
+    "content-text": "Podkastlarni yangi yo'nalishda mazza oling, bizning innovatsion dasturimiz bilan. Ishlab chiqilgan ilovalarimiz bilan istalgan vaqtda, istalgan joyda sevimli dasturlaringizni ko'rib chiqing va ulashib boring.",
+    "browse-episodes": "Epizodlarni ko'rib chiqing",
+    "become-podcaster": "Podkaster bo'ling"
+  }
 }

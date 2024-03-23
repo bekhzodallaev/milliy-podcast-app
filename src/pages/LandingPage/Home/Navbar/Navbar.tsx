@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                   smooth={true}
                   offset={-100}
                 >
-                  {t("about")}
+                  {t("navbar.about")}
                 </Link>
               </li>
               <li>
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
                   smooth={true}
                   offset={-100}
                 >
-                  {t("faq")}
+                  {t("navbar.faq")}
                 </Link>
               </li>
               <li>
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
                   smooth={true}
                   offset={-100}
                 >
-                  {t("contact")}
+                  {t("navbar.contact")}
                 </Link>
               </li>
             </ul>
@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
                 smooth={true}
                 offset={-100}
               >
-                {t("about")}
+                {t("navbar.about")}
               </Link>
             </li>
             <li>
@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
                 smooth={true}
                 offset={-100}
               >
-                {t("faq")}
+                {t("navbar.faq")}
               </Link>
             </li>
             <li>
@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
                 smooth={true}
                 offset={-100}
               >
-                {t("contact")}
+                {t("navbar.contact")}
               </Link>
             </li>
           </ul>
@@ -142,7 +142,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className={classes.signup_button}>
           <button className="singup_btn" onClick={handleSignUpClick}>
-            {t("sign_up")}
+            {t("navbar.sign_up")}
           </button>
         </div>
       </div>
