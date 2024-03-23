@@ -10,5 +10,16 @@
     "content-text": "Experience a new way to enjoy podcasts with our innovative app. Browse, and share your favorite shows anytime, anywhere.",
     "browse-episodes": " Browse Episodes",
     "become-podcaster": "Become a podcaster"
+  },
+  "podcastInfo": {
+    "f1heading": "A Platform for Hosting Both Audio and Video Podcasts",
+    "info-text-audio": "Listen to your favourite podcasts and watch videos seamlessly on our platform",
+    "info-text-video": "Discover a new way to consume content with our platform's video capabilities.",
+    "s2heading": "Key Features",
+    "info-text1": "  Enjoy offline listening and curated playlists for a personalized experience",
+    "t3heading": "Adjustable Playback Speed",
+    "info-text2": "Listen at your preferred pace with adjustable playback speed",
+    "f4heading": "Discover New Content",
+    "info-text3": "Explore a wide range of podcasts and videos to expand your horizons"
   }
 }

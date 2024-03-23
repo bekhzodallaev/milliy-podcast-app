@@ -10,5 +10,16 @@
     "content-text": "Podkastlarni yangi yo'nalishda mazza oling, bizning innovatsion dasturimiz bilan. Ishlab chiqilgan ilovalarimiz bilan istalgan vaqtda, istalgan joyda sevimli dasturlaringizni ko'rib chiqing va ulashib boring.",
     "browse-episodes": "Epizodlarni ko'rib chiqing",
     "become-podcaster": "Podkaster bo'ling"
+  },
+  "podcastInfo": {
+    "f1heading": "Audio va video podkastlarni tashkil etish uchun platforma",
+    "info-text-audio": "Sevimli podkastlaringizni eshitib, videolarni bizning platformamizda uzluksiz ko'ring.",
+    "info-text-video": "Platformamizning video imkoniyatlari bilan kontentni iste'mol qilishning yangi usulini kash eting.",
+    "s2heading": "Asosiy xususiyatlar",
+    "info-text1": "Tizimni nusxasini olish va shaxsiy tajribani yaratilgan playlistlar orqali offline eshitishdan zavqlaning.",
+    "t3heading": "Playback tezligini moslash",
+    "info-text2": "O'ynash tezligini moslash imkoniyati bilan o'zingizga qulay tezda eshitishingiz mumkin.",
+    "f4heading": "Yangi kontentni kashf eting",
+    "info-text3": "Horizontlaringizni kengaytirish uchun keng doirasidagi podkastlar va videolar dunyasini kashf qiling."
   }
 }
