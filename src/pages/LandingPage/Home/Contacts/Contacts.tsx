@@ -6,19 +6,17 @@ import InstaLogo from "../../../../assets/LandingPageAssets/HomePage/AboutAssets
 import LinkedinLogo from "../../../../assets/LandingPageAssets/HomePage/AboutAssets/LinkedinLogo.svg";
 import WhatsAppLogo from "../../../../assets/LandingPageAssets/HomePage/AboutAssets/WhatsApp.svg";
 import TelegramLogo from "../../../../assets/LandingPageAssets/HomePage/AboutAssets/TelegramLogo.svg";
-
+import { useTranslation } from "react-i18next";
 import ReusableContacts from "./ReusableContacts";
 
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.container} id="contact">
       <div className={styles.introduction}>
-        <h1 className={styles.title}>Let's work together</h1>
-        <p className={styles.text}>
-          Let's transform your ideas into reality! Take the first step towards
-          collaboration by reaching out and sharing your vision. Your journey to
-          success begins with a simple message. Together, we can make it happen!
-        </p>
+        <h1 className={styles.title}>{t("contact.title")}</h1>
+        <p className={styles.text}>{t("contact.text")}</p>
       </div>
       <div className={styles.contacts}>
         <div className={styles.email}>
@@ -38,37 +36,37 @@ const AboutUs = () => {
       </div>
       <form action="submit" className={styles.form_submit}>
         <div className={styles.input_name}>
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" />
+          <label htmlFor="name">{t("contact.name")}</label>
+          <input type="text" id="name" placeholder={t("contact.inputName")} />
         </div>
         <div className={styles.input_email}>
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" placeholder="Email address" />
+          <input type="text" id="email" placeholder={t("contact.inputEmail")} />
         </div>
         <div className={styles.input_role}>
-          <label htmlFor="role">Role</label>
+          <label htmlFor="role">{t("contact.inputRole")}</label>
           <select name="role" id="role">
             <option value="" disabled selected>
-              Choose your role
+              {t("contact.optionRole")}
             </option>
 
-            <option value="user">User</option>
-            <option value="podcaster">Podcaster</option>
+            <option value="user">{t("user")}</option>
+            <option value="podcaster">{t("contact.podcaster")}</option>
           </select>
         </div>
         <div className={styles.input_number}>
-          <label htmlFor="phone">Phone number</label>
+          <label htmlFor="phone">{t("contact.phone")}</label>
           <input
-            type="numbe"
+            type="number"
             id="phone"
-            placeholder="Enter your phone number"
+            placeholder={t("contact.phoneNumber")}
           />
         </div>
         <div className={styles.input_country}>
-          <label htmlFor="country">Country</label>
+          <label htmlFor="country">{t("contact.country")}</label>
           <select name="country" id="country">
             <option value="" disabled selected>
-              Select your country
+              {t("contact.optionCountry")}
             </option>
             <option value="USA">USA</option>
             <option value="England">England</option>
@@ -76,30 +74,28 @@ const AboutUs = () => {
           </select>
         </div>
         <div className={styles.input_postal_code}>
-          <label htmlFor="postal_code">Postal code</label>
+          <label htmlFor="postal_code">{t("contact.postalcode")}</label>
           <input type="text" name="postal_code" id="postal_code" />
         </div>
         <div className={styles.input_subject}>
-          <label htmlFor="Subject">Subject</label>
+          <label htmlFor="Subject">{t("contact.subject")}</label>
           <textarea
             name="Subject"
             id="Subject"
             cols={30}
             rows={10}
-            placeholder="Please tell us little bit more about your idea."
+            placeholder={t("contact.textareaPlaceholder")}
             className={styles.input_textarea}
           ></textarea>
         </div>
         <button type="submit" className={styles.submit}>
-          Submit
+          {t("contact.submitBtn")}
         </button>
       </form>
       <div>
         {" "}
-        <h1 className={styles.heading}>
-          Stay tuned for inspiring podcast episodes.
-        </h1>
-        <h1 className={styles.heading}>Follow us!</h1>
+        <h1 className={styles.heading}>{t("contact.heading")}</h1>
+        <h1 className={styles.heading}>{t("contact.followUs")}</h1>
       </div>
       <div className={styles.parent_card_container}>
         <ReusableContacts

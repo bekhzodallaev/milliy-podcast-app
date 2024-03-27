@@ -29,5 +29,27 @@
     "text1": " Our podcast app allows you to effortlessly search for your  favorite shows, subscribe, and download episodes for offline listening",
     "text2": "Explore a vast library of podcasts and find new episodes to enjoy, all within our user-friendly app.",
     "text3": " Customize your podcast feed, create playlists, and receive personalized recommendations based on your interests."
+  },
+  "contact": {
+    "title": "Let's work together",
+    "text": " Let's transform your ideas into reality! Take the first step towards collaboration by reaching out and sharing your vision. Your journey to success begins with a simple message. Together, we can make it happen!",
+    "name": "Name",
+    "inputRole": "Role",
+    "optionRole": "Choose your role",
+    "user": "User",
+    "podcaster": "Podcaster",
+    "inputNumber": "Enter your phone number",
+    "country": "Country",
+    "optionCountry": "Select your country",
+    "postalcode": "Postal code",
+    "subject": "Subject",
+    "textareaPlaceholder": "Please tell us little bit more about your idea.",
+    "submitBtn": "Submit",
+    "heading": "Stay tuned for inspiring podcast episodes.",
+    "followUs": "Follow Us",
+    "phone": "Phone number",
+    "inputName": "Enter your name",
+    "inputEmail": "Email Address",
+    "phoneNumber": "Enter your phone number"
   }
 }

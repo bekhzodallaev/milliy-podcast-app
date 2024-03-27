@@ -29,5 +29,27 @@
     "text1": "Bizning podkast dasturimiz sizga sadoqat bilan sevimli dasturlaringizni osonlik bilan qidirib topish, obuna bo'lish va nusxalarni offline eshitish uchun yuklash imkoniyatini beradi.",
     "text2": "Katta podkastlar kutubxonasini tashqi foydalanuvchi do'stona dasturimiz ichida ko'ring va zavqlaning uchun yangi epizodlarni toping.",
     "text3": "Podkast saqlaringizni moslashtiring, pleilistlar yarating va qiziqtirganlariga asoslangan shaxsiy takliflarni qabul qiling."
+  },
+  "contact": {
+    "title": "Birgalikda ishlashka tayyormisiz",
+    "text": "O'ylaringizni amalga oshirib ko'ramiz! Hamkorlik yo'li bilan birinchi qadamni qo'ying va tajribangizni ulashing. Muvaffaqiyatga yo'lning boshlanishi oddiy xabar bilan boshlanadi. Birga, bu erda muvaffaqiyatga erishishimiz mumkin!",
+    "name": "Ism",
+    "inputRole": "Rol",
+    "optionRole": "O'zingizning rolingizni tanlang",
+    "user": "Foydalanuvchi",
+    "podcaster": "Podkaster",
+    "inputNumber": "Telefon raqamingizni kiriting",
+    "country": "Mamlakat",
+    "optionCountry": "Mamlakatingizni tanlang",
+    "postalcode": "Pochta indeksi",
+    "subject": "Mavzu",
+    "textareaPlaceholder": "Iltimos, o'zingizning fikringiz haqida qisqacha aytib bering.",
+    "submitBtn": "Yuborish",
+    "heading": "Muxlis podkast epizodlari uchun kuting.",
+    "followUs": "Bizni kuzatib boring",
+    "phone": "Telefon raqami",
+    "inputName": "Ismingizni kiriting",
+    "inputEmail": "Elektron pochta manzili",
+    "phoneNumber": "Telefon raqamini kiriting"
   }
 }
