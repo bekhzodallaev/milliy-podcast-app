@@ -51,5 +51,8 @@
     "inputName": "Ismingizni kiriting",
     "inputEmail": "Elektron pochta manzili",
     "phoneNumber": "Telefon raqamini kiriting"
+  },
+  "testimonial": {
+    "title": "Bizning mijozlarimiz nima deyishadi"
   }
 }

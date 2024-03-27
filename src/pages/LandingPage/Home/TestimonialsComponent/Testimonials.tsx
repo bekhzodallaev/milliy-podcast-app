@@ -5,7 +5,7 @@ import classes from "./Testimonials.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { responsive } from "./CardDetails";
-
+import { useTranslation } from "react-i18next";
 const cards = testimonialsData.map((testimonial, index) => (
   <div key={index} className={classes.testimonials_card}>
     <ReusableTestimonials
@@ -18,10 +18,12 @@ const cards = testimonialsData.map((testimonial, index) => (
 ));
 
 function Testimonials() {
+  const { t } = useTranslation();
+
   return (
     <div className={classes.container}>
       <div className={classes.texts}>
-        <p className={classes.heading}>What Our Customers Say</p>
+        <p className={classes.heading}>{t("testimonial.title")}</p>
       </div>
       <Carousel
         arrows={true}

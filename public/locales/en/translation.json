@@ -51,5 +51,8 @@
     "inputName": "Enter your name",
     "inputEmail": "Email Address",
     "phoneNumber": "Enter your phone number"
+  },
+  "testimonial": {
+    "title": "What Our Customers say"
   }
 }
