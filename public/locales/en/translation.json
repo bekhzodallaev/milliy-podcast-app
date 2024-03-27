@@ -54,5 +54,10 @@
   },
   "testimonial": {
     "title": "What Our Customers say"
+  },
+  "unlockTreasure": {
+    "title": "Unlock Podcast Treasures",
+    "content": "Delve into a vast audio landscape as we guide you through captivating stories",
+    "accountBtn": "Create Account"
   }
 }

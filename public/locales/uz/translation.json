@@ -54,5 +54,10 @@
   },
   "testimonial": {
     "title": "Bizning mijozlarimiz nima deyishadi"
+  },
+  "unlockTreasure": {
+    "title": "Podkast qazmalarini oching",
+    "content": "Qiziq tarjimalarga yo'l boyicha sizni yo'lga qo'yamiz.",
+    "accountBtn": "Hisob yaratish"
   }
 }
