@@ -1,19 +1,19 @@
 import classes from "./PodcastTreasure.module.css";
-
+import { useTranslation } from "react-i18next";
 const PodcastTreasure = () => {
+  const { t } = useTranslation();
   return (
     <div className={classes.podcast_treasure}>
       <div className={classes.main_container}>
         <div className={classes.main_container_content}>
-          <p className={classes.unlock_treasure}>Unlock Podcast Treasures</p>
+          <p className={classes.unlock_treasure}>{t("unlockTreasure.title")}</p>
           <p className={classes.unlock_tresure_content}>
-            Delve into a vast audio landscape as we guide you through
-            captivating stories
+            {t("unlockTreasure.content")}
           </p>
         </div>
         <div>
           <button className={classes.create_account_button}>
-            Create Account
+            {t("unlockTreasure.accountBtn")}
           </button>
         </div>
       </div>

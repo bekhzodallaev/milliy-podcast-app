@@ -1,18 +1,16 @@
 import classes from "./Newsletter.module.css";
 import { AiOutlineRight } from "react-icons/ai";
-
+import { useTranslation } from "react-i18next";
 const Newsletter = () => {
+  const { t } = useTranslation();
   return (
     <div className={classes.newsletter_main}>
       <div className={classes.newsletter_container}>
         <div className={classes.left_side}>
           <div className={classes.left_side_title}>
-            <p className={classes.container_title}>
-              Get the Latest Updates <br /> Here
-            </p>
+            <p className={classes.container_title}>{t("newsletter.title")}</p>
             <p className={classes.container_content}>
-              Subscribe to our newsletter for updates, promotions, and <br />
-              exclusive content.
+              {t("newsletter.header_content")}
             </p>
           </div>
           <div className={classes.input_button}>
@@ -20,19 +18,19 @@ const Newsletter = () => {
               type="email"
               name=""
               id=""
-              placeholder="Enter your email Address"
+              placeholder={t("newsletter.inputPlaceholder")}
               className={classes.email_input}
             />
             <button type="submit" className={classes.subscribe_button}>
-              Subscribe <AiOutlineRight />
+              {t("newsletter.btnText")} <AiOutlineRight />
             </button>
           </div>
           <p className={classes.footer_content}>
-            By subscribing you agree to with our
-            <p className={classes.privicy_policy}> Privacy policy</p> and
-            provide
-            <br />
-            consent to receive updates from our company.
+            {t("newsletter.footer_content")}
+            <p className={classes.privicy_policy}>
+              {t("newsletter.privacy_policy")}
+            </p>
+            {t("newsletter.footer_last")}
           </p>
         </div>
         <div className={classes.right_side_picture}></div>
