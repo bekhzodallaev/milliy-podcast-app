@@ -72,5 +72,15 @@
     "footer_content": "By subscribing you agree to with our",
     "privacy_policy": " Privacy policy ",
     "footer_last": "and provide consent to receive updates from our company."
+  },
+  "footer": {
+    "about": "ABOUT",
+    "pricing": "PRICING",
+    "faq": "FAQ",
+    "contact": "CONTACT",
+    "rights": " Podcast. All rights reserved",
+    "policy": "Privacy policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies Settings"
   }
 }

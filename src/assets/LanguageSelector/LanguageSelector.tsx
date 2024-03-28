@@ -10,6 +10,7 @@ interface Language {
 const languages: Language[] = [
   { code: "en", lang: "English", shortForm: "EN" },
   { code: "uz", lang: "Uzbek", shortForm: "UZ" },
+  { code: "ru", lang: "Russian", shortForm: "RU" },
 ];
 
 const LanguageSelector: React.FC = () => {

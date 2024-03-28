@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Contacts.module.css";
+import { useTranslation } from "react-i18next";
 interface ContactProps {
   imageSrc: string;
   title: string;
@@ -14,12 +15,13 @@ const ReusableContacts: React.FC<ContactProps> = ({
   link,
   className,
 }) => {
+  const { t } = useTranslation();
   return (
     <div className={`${styles.card_container} ${className} `}>
       <img src={imageSrc} alt={imgDescription} />
       <h3 className={styles.contact_title}>{title}</h3>
       <button className={styles.contact_btn}>
-        <a href={link}>Follow us</a>
+        <a href={link}>{t("contact.followUs")}</a>
       </button>
     </div>
   );

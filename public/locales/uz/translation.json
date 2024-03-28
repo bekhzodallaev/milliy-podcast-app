@@ -72,5 +72,15 @@
     "footer_content": "Obuna bo'lganingiz bilan bizning",
     "privacy_policy": " Maxfiylik siyosati ",
     "footer_last": "qabul qilasiz va kompaniyamizdan yangiliklar olishga rozilik bildirasiz "
+  },
+  "footer": {
+    "about": "HAQIDA",
+    "pricing": "NARXLAR",
+    "faq": "KSM",
+    "contact": "BOG'LANISH",
+    "rights": " Podcast. Barcha huquqlar himoyalangan",
+    "policy": "Maxfiylik siyosati",
+    "terms": "Xizmat shartlari",
+    "cookies": "Cookie sozlamalari"
   }
 }
