@@ -63,5 +63,14 @@
   "faq": {
     "faq_header_title": "FAQs",
     "faq_header_content": "Your Questions, Our Answers: Explore our FAQ Section"
+  },
+  "newsletter": {
+    "title": "Get the Latest Updates Here",
+    "header_content": " Subscribe to our newsletter for updates, promotions, and exclusive content.",
+    "inputPlaceholder": "Enter your email Address",
+    "btnText": "Subscribe",
+    "footer_content": "By subscribing you agree to with our",
+    "privacy_policy": " Privacy policy ",
+    "footer_last": "and provide consent to receive updates from our company."
   }
 }
