@@ -1,27 +1,25 @@
 import ReusableComponent from "./ReusableComponent";
 import styles from "./DiscoverStyles.module.css";
-
+import { useTranslation } from "react-i18next";
 const DiscoverComponent = () => {
+  const { t } = useTranslation();
   return (
     <div className={styles.parentContainer}>
       <ReusableComponent
-        heading="Easily Search, Subscribe and Download Episodes"
-        text=" Our podcast app allows you to effortlessly search for your
-              favorite shows, subscribe, and download episodes for offline
-              listening"
+        heading={t("discoverPage.heading1")}
+        text={t("discoverPage.text1")}
         textClassName={styles.text}
         headingClassName={styles.headingText}
       />
       <ReusableComponent
-        heading="Discover New Podcasts and Episodes"
-        text="Explore a vast library of podcasts and find new episodes to enjoy, all within our user-friendly app."
+        heading={t("discoverPage.heading2")}
+        text={t("discoverPage.text2")}
         headingClassName={styles.headingText}
         textClassName={styles.text}
       />
       <ReusableComponent
-        heading="Personalize Your Podcast Listening Experience"
-        text=" Customize your podcast feed, create playlists, and receive
-              personalized recommendations based on your interests."
+        heading={t("discoverPage.heading3")}
+        text={t("discoverPage.text3")}
         headingClassName={styles.headingText}
         textClassName={styles.text}
       />

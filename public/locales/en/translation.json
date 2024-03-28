@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "sign_up": "Sign Up"
+  },
+  "mainContent": {
+    "main-text": "Discover world of podcasts with us",
+    "content-text": "Experience a new way to enjoy podcasts with our innovative app. Browse, and share your favorite shows anytime, anywhere.",
+    "browse-episodes": " Browse Episodes",
+    "become-podcaster": "Become a podcaster"
+  },
+  "podcastInfo": {
+    "f1heading": "A Platform for Hosting Both Audio and Video Podcasts",
+    "info-text-audio": "Listen to your favourite podcasts and watch videos seamlessly on our platform",
+    "info-text-video": "Discover a new way to consume content with our platform's video capabilities.",
+    "s2heading": "Key Features",
+    "info-text1": "  Enjoy offline listening and curated playlists for a personalized experience",
+    "t3heading": "Adjustable Playback Speed",
+    "info-text2": "Listen at your preferred pace with adjustable playback speed",
+    "f4heading": "Discover New Content",
+    "info-text3": "Explore a wide range of podcasts and videos to expand your horizons"
+  },
+  "discoverPage": {
+    "heading1": "Easily Search, Subscribe and Download Episodes",
+    "heading2": "Discover New Podcasts and Episodes",
+    "heading3": "Personalize Your Podcast Listening Experience",
+    "text1": " Our podcast app allows you to effortlessly search for your  favorite shows, subscribe, and download episodes for offline listening",
+    "text2": "Explore a vast library of podcasts and find new episodes to enjoy, all within our user-friendly app.",
+    "text3": " Customize your podcast feed, create playlists, and receive personalized recommendations based on your interests."
+  },
+  "contact": {
+    "title": "Let's work together",
+    "text": " Let's transform your ideas into reality! Take the first step towards collaboration by reaching out and sharing your vision. Your journey to success begins with a simple message. Together, we can make it happen!",
+    "name": "Name",
+    "inputRole": "Role",
+    "optionRole": "Choose your role",
+    "user": "User",
+    "podcaster": "Podcaster",
+    "inputNumber": "Enter your phone number",
+    "country": "Country",
+    "optionCountry": "Select your country",
+    "postalcode": "Postal code",
+    "subject": "Subject",
+    "textareaPlaceholder": "Please tell us little bit more about your idea.",
+    "submitBtn": "Submit",
+    "heading": "Stay tuned for inspiring podcast episodes.",
+    "followUs": "Follow Us",
+    "phone": "Phone number",
+    "inputName": "Enter your name",
+    "inputEmail": "Email Address",
+    "phoneNumber": "Enter your phone number"
+  },
+  "testimonial": {
+    "title": "What Our Customers say"
+  },
+  "unlockTreasure": {
+    "title": "Unlock Podcast Treasures",
+    "content": "Delve into a vast audio landscape as we guide you through captivating stories",
+    "accountBtn": "Create Account"
+  },
+  "faq": {
+    "faq_header_title": "FAQs",
+    "faq_header_content": "Your Questions, Our Answers: Explore our FAQ Section"
+  }
+}
