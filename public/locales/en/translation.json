@@ -59,5 +59,9 @@
     "title": "Unlock Podcast Treasures",
     "content": "Delve into a vast audio landscape as we guide you through captivating stories",
     "accountBtn": "Create Account"
+  },
+  "faq": {
+    "faq_header_title": "FAQs",
+    "faq_header_content": "Your Questions, Our Answers: Explore our FAQ Section"
   }
 }
