@@ -63,5 +63,24 @@
   "faq": {
     "faq_header_title": "Ko'p so'raladigan savollar (FAQ)",
     "faq_header_content": "Sizning savollaringiz, bizning javoblarimiz: FAQ bo'limimizni tahlil qiling"
+  },
+  "newsletter": {
+    "title": "So'nggi yangiliklarni bu yerda olish",
+    "header_content": "Obuna bo'ling, yangilanishlar, chegirmalar va maxsus kontentlar uchun.",
+    "inputPlaceholder": "Email manzilingizni kiriting",
+    "btnText": "Obuna bo'lish",
+    "footer_content": "Obuna bo'lganingiz bilan bizning",
+    "privacy_policy": " Maxfiylik siyosati ",
+    "footer_last": "qabul qilasiz va kompaniyamizdan yangiliklar olishga rozilik bildirasiz "
+  },
+  "footer": {
+    "about": "HAQIDA",
+    "pricing": "NARXLAR",
+    "faq": "KSM",
+    "contact": "BOG'LANISH",
+    "rights": " Podcast. Barcha huquqlar himoyalangan",
+    "policy": "Maxfiylik siyosati",
+    "terms": "Xizmat shartlari",
+    "cookies": "Cookie sozlamalari"
   }
 }
