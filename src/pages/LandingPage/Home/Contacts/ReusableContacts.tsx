@@ -21,7 +21,9 @@ const ReusableContacts: React.FC<ContactProps> = ({
       <img src={imageSrc} alt={imgDescription} />
       <h3 className={styles.contact_title}>{title}</h3>
       <button className={styles.contact_btn}>
-        <a href={link}>{t("contact.followUs")}</a>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          {t("contact.followUs")}
+        </a>
       </button>
     </div>
   );
