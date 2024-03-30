@@ -151,6 +151,14 @@
     left: 20px;
     top: 6rem;
   }
+  .lng_container {
+    display: none;
+  }
+  .lng_container_mobile {
+    position: fixed;
+    right: 1rem;
+  }
+
   .navbar_buttons {
     display: none;
   }

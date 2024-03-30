@@ -96,6 +96,9 @@ const Navbar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+            <div className={classes.lng_container_mobile}>
+              <LanguageSelector />
+            </div>
           </div>
         )}
         <div className={classes.navbar_buttons}>
