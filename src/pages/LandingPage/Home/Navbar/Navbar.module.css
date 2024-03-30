@@ -100,14 +100,6 @@
   cursor: pointer;
   background: linear-gradient(91deg, #d02480 6%, #4732e1 90.82%);
 }
-.lng_container {
-  display: flex;
-}
-.lng_icon {
-  color: white;
-  width: 4rem;
-  margin-top: 0.5rem;
-}
 
 /* Media queries */
 /* Phone version */
