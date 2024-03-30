@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import styles from "./LanguageSelector.module.css";
 interface Language {
   code: string;
   lang: string;
@@ -8,9 +8,9 @@ interface Language {
 }
 
 const languages: Language[] = [
-  { code: "en", lang: "English", shortForm: "EN" },
-  { code: "uz", lang: "Uzbek", shortForm: "UZ" },
-  { code: "ru", lang: "Russian", shortForm: "RU" },
+  { code: "en", lang: "English", shortForm: "English" },
+  { code: "uz", lang: "Uzbek", shortForm: "Uzbek" },
+  { code: "ru", lang: "Russian", shortForm: "Russian" },
 ];
 
 const LanguageSelector: React.FC = () => {
@@ -28,9 +28,10 @@ const LanguageSelector: React.FC = () => {
         id="lng-select"
         onChange={changeLanguage}
         value={i18n.language}
+        className={styles.input_select}
       >
         {languages.map((lng) => (
-          <option key={lng.code} value={lng.code}>
+          <option key={lng.code} value={lng.code} className={styles.option}>
             {lng.shortForm}
           </option>
         ))}
