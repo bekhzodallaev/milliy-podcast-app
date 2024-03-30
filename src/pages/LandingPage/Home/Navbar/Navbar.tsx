@@ -9,7 +9,6 @@ import MenuVector2 from "../../../../assets/LandingPageAssets/HomePage/MenuAsset
 import MenuVector3 from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 3.svg";
 import CancelIcon from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Group 1.svg";
 import LanguageSelector from "../../../../assets/LanguageSelector/LanguageSelector";
-import { MdLanguage } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 const Navbar: React.FC = () => {
@@ -97,6 +96,9 @@ const Navbar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+            <div className={classes.lng_container_mobile}>
+              <LanguageSelector />
+            </div>
           </div>
         )}
         <div className={classes.navbar_buttons}>
@@ -137,7 +139,6 @@ const Navbar: React.FC = () => {
           </ul>
         </div>
         <div className={classes.lng_container}>
-          <MdLanguage className={classes.lng_icon} />
           <LanguageSelector />
         </div>
         <div className={classes.signup_button}>
