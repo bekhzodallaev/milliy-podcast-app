@@ -82,5 +82,32 @@
     "policy": "Maxfiylik siyosati",
     "terms": "Xizmat shartlari",
     "cookies": "Cookie sozlamalari"
+  },
+  "faqQuestions": {
+    "1": {
+      "title": "Podkastlarni qanday eshitishim mumkin?",
+      "content": "Siz Spotify, Apple Podcasts, Google Podcasts va boshqa bir qancha platformalarda podkastlarni tinglay olasiz. Siz qiziqtirgan podkastni qidirib toping va tinglashni boshlang.",
+      "icon": "🎧"
+    },
+    "2": {
+      "title": "Epizodlarni nima uchun yuklab olishim mumkin?",
+      "content": "Ha, ko'pchilik podkast platformalari sizga epizodlarni oflayn tinglash uchun yuklab olishga ruxsat beradi. Saqlamoqchi bo'lgan epizodning yonida yuklab olish tugmachasini qidiring.",
+      "icon": "⬇️"
+    },
+    "3": {
+      "title": "Yangi epizodlar qancha murakkabda qilinishadi?",
+      "content": "Epizodlar chiqarilish jadvali podkastdan podkastgacha o'zgaradi. Ba'zi podkastlar haftalik epizodlarni chiqaradi, ba'zilari boshqa jadvalga ega bo'lishlari mumkin. Ko'proq ma'lumot uchun podkastning ta'rifiga yoki veb-saytiga qarang.",
+      "icon": "🗓️"
+    },
+    "4": {
+      "title": "Epizodlarga izoh yoki sharh qoldirish mumkinmi?",
+      "content": "Ha, ko'pchilik podkast platformalari tinglovchilarga epizodlarga izoh qoldirish yoki sharhlar yozishga ruxsat beradi. Bu fikrlar hamma uchun qadriyatli bo'lishi mumkin.",
+      "icon": "💬"
+    },
+    "5": {
+      "title": "Yangi podkastlarni qanday topish mumkin?",
+      "content": "Podkast platformalarida qiziqtirgan toiflar yoki janrlar bo'yicha yangi podkastlarni topishingiz mumkin. Qo'shimcha ravishda, do'stlaringiz yoki ijtimoiy tarmoqlardan tavsiyalar yangi kontent topish uchun ajoyib yo'l bo'lishi mumkin.",
+      "icon": "🔍"
+    }
   }
 }
