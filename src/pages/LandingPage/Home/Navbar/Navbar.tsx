@@ -10,7 +10,7 @@ import MenuVector3 from "../../../../assets/LandingPageAssets/HomePage/MenuAsset
 import CancelIcon from "../../../../assets/LandingPageAssets/HomePage/MenuAssets/Group 1.svg";
 import LanguageSelector from "../../../../assets/LanguageSelector/LanguageSelector";
 import { useTranslation } from "react-i18next";
-
+import Home from "../../../../main-app/Homepage/MainAppHome";
 const Navbar: React.FC = () => {
   const { t } = useTranslation();
 
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   };
 
   const handleAboutUsClick = () => {
-    navigate("/aboutus");
+    navigate("/main-app");
   };
   return (
     <nav className={classes.navbar}>
@@ -110,6 +110,7 @@ const Navbar: React.FC = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
+                onClick={handleAboutUsClick}
               >
                 {t("navbar.about")}
               </Link>

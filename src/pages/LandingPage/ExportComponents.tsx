@@ -7,3 +7,4 @@ export { default as ForgotPassword } from "./Auth/SignIn/ForgotPassword";
 export { default as SetNewPassword } from "./Auth/SignIn/ForgotPassword/ResetPassword/SetNewPassword";
 export { default as PasswordSuccessful } from "./Auth/SignIn/ForgotPassword/ResetPassword/PasswordSuccessful";
 export { default as VerifyAccount } from "./Auth/SignUp/VerifyAccount";
+export { default as MainAppHome } from "../../main-app/Homepage/MainAppHome";
