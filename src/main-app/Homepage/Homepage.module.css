@@ -3,9 +3,28 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
   display: flex;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.logo p {
+  font-family: MuseoModerno;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(
+    90deg,
+    #972065 -11.04%,
+    #3c2c8f 124.66%,
+    rgba(255, 255, 255, 0) 124.68%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .form {
   border-radius: 3.1875rem;
@@ -15,23 +34,31 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.625rem 0.9375rem;
+  width: 31.25rem;
+  height: 2.625rem;
+  gap: 0.625rem;
+  flex-shrink: 0;
 }
 .form .input {
   width: 100%;
   height: 100%;
   border: none;
   border-radius: 3.1875rem;
-  padding: 0.625rem 0.9375rem;
   display: block;
   background-color: inherit;
+  font-size: 1rem;
 }
 .form .input:focus {
   outline: none;
 }
 .form .btn {
-  position: absolute;
-  top: 0;
   border: none;
   background: none;
   cursor: pointer;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2.1875rem;
 }

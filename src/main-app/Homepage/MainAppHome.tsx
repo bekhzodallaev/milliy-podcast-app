@@ -9,11 +9,11 @@ const MainAppHome = () => {
   return (
     <div>
       <header className={styles.header}>
-        <div className={styles.logo}>
+        <div className={`${styles.logo} ${styles.flex_item}`}>
           <img src={Bar} alt="Podcast Bar" />
           <p>milliypodcast</p>
         </div>
-        <form className={styles.form}>
+        <form className={`${styles.form} ${styles.flex_item}`}>
           <button type="submit" className={styles.btn}>
             {/* <SearchLogo /> */}
             <img src={SearchLogo} alt="Search Logo" />
@@ -24,7 +24,7 @@ const MainAppHome = () => {
             className={styles.input}
           />
         </form>
-        <div className="profile">
+        <div className={`${styles.profile} ${styles.flex_item}`}>
           <img src={NotificationLogo} alt="Notification logo" />
           <img src={ProfilePhoto} alt="Profile photo" />
         </div>
