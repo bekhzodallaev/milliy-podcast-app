@@ -1,3 +1,7 @@
+@font-face {
+  font-family: MuseoModerno;
+  src: url("../../assets/fonts/musemoderno/MuseoModerno-Regular.ttf");
+}
 header {
   padding: 0.625rem 1.25rem;
   display: flex;
@@ -61,4 +65,68 @@ header {
   display: flex;
   align-items: center;
   gap: 2.1875rem;
+}
+.discover {
+  display: flex;
+  width: 13.75rem;
+  padding: 0.625rem 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+}
+.left_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  display: flex;
+  width: 13.75rem;
+  padding: 0.625rem 0rem;
+  flex-direction: column;
+  gap: 0.3125rem;
+}
+.popular_cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 42.5rem;
+  flex-wrap: wrap;
+  gap: 1.125rem;
+}
+.card_item {
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+.card_item img {
+  width: 100%;
+  object-fit: cover;
+  height: 9rem;
+}
+.main {
+  display: flex;
+  gap: 3.12rem;
+}
+.type_podcast,
+.podcast_title,
+.podcast_author {
+  padding-bottom: 1.25rem;
+  color: #383b3a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+}
+.podcast_title {
+  font-size: 0.875rem;
+  margin-top: 0.31rem;
+}
+.podcast_author {
+  color: #6a6c6b;
+  font-size: 0.75rem;
+}
+.main_content {
+  margin-top: 1.25rem;
+}
+.episodes {
+  display: flex;
+  overflow-x: scroll;
+}
+.episodes_card {
+  width: 15rem;
 }
