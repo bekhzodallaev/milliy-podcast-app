@@ -37,15 +37,25 @@ const AboutUs = () => {
       <form action="submit" className={styles.form_submit}>
         <div className={styles.input_name}>
           <label htmlFor="name">{t("contact.name")}</label>
-          <input type="text" id="name" placeholder={t("contact.inputName")} />
+          <input
+            type="text"
+            id="name"
+            placeholder={t("contact.inputName")}
+            className={styles.input}
+          />
         </div>
         <div className={styles.input_email}>
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" placeholder={t("contact.inputEmail")} />
+          <input
+            type="text"
+            id="email"
+            placeholder={t("contact.inputEmail")}
+            className={styles.input}
+          />
         </div>
         <div className={styles.input_role}>
           <label htmlFor="role">{t("contact.inputRole")}</label>
-          <select name="role" id="role">
+          <select name="role" id="role" className={styles.select}>
             <option value="" disabled selected>
               {t("contact.optionRole")}
             </option>
@@ -60,11 +70,12 @@ const AboutUs = () => {
             type="number"
             id="phone"
             placeholder={t("contact.phoneNumber")}
+            className={styles.input}
           />
         </div>
         <div className={styles.input_country}>
           <label htmlFor="country">{t("contact.country")}</label>
-          <select name="country" id="country">
+          <select name="country" id="country" className={styles.select}>
             <option value="" disabled selected>
               {t("contact.optionCountry")}
             </option>
@@ -75,7 +86,12 @@ const AboutUs = () => {
         </div>
         <div className={styles.input_postal_code}>
           <label htmlFor="postal_code">{t("contact.postalcode")}</label>
-          <input type="text" name="postal_code" id="postal_code" />
+          <input
+            type="text"
+            name="postal_code"
+            id="postal_code"
+            className={styles.input}
+          />
         </div>
         <div className={styles.input_subject}>
           <label htmlFor="Subject">{t("contact.subject")}</label>
