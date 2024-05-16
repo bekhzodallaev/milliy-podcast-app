@@ -11,6 +11,7 @@ import podcastEpisodesData from "./cardsEpisodesData";
 import styles from "./Homepage.module.css";
 import ReusableTrendingCards from "./ReusabeTrendingCards";
 import ReusableEpisodesCards from "./ReusableEpisodesCards";
+import { ReactComponent as RightArrow } from "../../assets/MainAppAssets/MainHomepage/rightArrow.svg";
 
 const MainAppHome = () => {
   return (
@@ -65,18 +66,23 @@ const MainAppHome = () => {
               );
             })}
           </div>
-          <p>Episodes</p>
-          <div className={styles.episodes}>
-            {podcastEpisodesData.map((podcast: any, index: number) => {
-              return (
-                <ReusableEpisodesCards
-                  img={podcast.img}
-                  author={podcast.podcast_author}
-                  title={podcast.podcast_title}
-                  description={podcast.description}
-                />
-              );
-            })}
+          <p className={styles.episodes_text}>Episodes</p>
+          <div className={styles.parent_episodes}>
+            <div className={styles.episodes}>
+              {podcastEpisodesData.map((podcast: any, index: number) => {
+                return (
+                  <ReusableEpisodesCards
+                    img={podcast.img}
+                    author={podcast.podcast_author}
+                    title={podcast.podcast_title}
+                    description={podcast.description}
+                  />
+                );
+              })}
+            </div>
+            <span className={styles.right_arrow}>
+              <RightArrow />
+            </span>
           </div>
         </section>
       </main>
