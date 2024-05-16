@@ -90,9 +90,9 @@
 label {
   margin-bottom: 0.62rem;
 }
-input,
-select,
-textarea {
+.input,
+.select,
+.input_textarea {
   margin-top: 0.62rem;
 }
 .input_subject {

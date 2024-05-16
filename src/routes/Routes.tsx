@@ -9,6 +9,7 @@ import {
   SetNewPassword,
   PasswordSuccessful,
   VerifyAccount,
+  MainAppHome,
 } from "../pages/LandingPage/ExportComponents";
 
 export interface Route {
@@ -26,6 +27,7 @@ const routes: Route[] = [
   { path: "/forgot-password", element: <ForgotPassword /> },
   { path: "/set-password", element: <SetNewPassword /> },
   { path: "/updated-password", element: <PasswordSuccessful /> },
+  { path: "/main-app", element: <MainAppHome /> },
 ];
 
 export default routes;
