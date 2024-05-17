@@ -1,0 +1,51 @@
+.header_container {
+  border-radius: 3.6875rem;
+  border: 1px solid var(--Black, #383b3a);
+  background: #fff;
+  margin: 0.625rem 6.25rem;
+  padding: 1.25rem 0.625rem;
+  width: 100%;
+}
+.reusable_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.logo h1 {
+  width: 6.5625rem;
+  height: 0.75rem;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+ul li {
+  list-style: none;
+}
+ul li .links {
+  text-decoration: none;
+  color: #000;
+  font-family: "Clash Display";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.signup_btn {
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 3.9375rem;
+  border: 0.5px solid #fff;
+  background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
+  color: #fff;
+}

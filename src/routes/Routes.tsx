@@ -10,6 +10,7 @@ import {
   PasswordSuccessful,
   VerifyAccount,
   MainAppHome,
+  Contact,
 } from "../pages/LandingPage/ExportComponents";
 
 export interface Route {
@@ -21,6 +22,8 @@ const routes: Route[] = [
   { path: "/", element: <Home /> },
   { path: "/welcome", element: <Welcome /> },
   { path: "/aboutus", element: <AboutUs /> },
+  { path: "/contact", element: <Contact /> },
+
   { path: "/signin", element: <SignIn /> },
   { path: "/signup", element: <SignUp /> },
   { path: "/verify-account", element: <VerifyAccount /> },

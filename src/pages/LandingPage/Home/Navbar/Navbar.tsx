@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Link } from "react-scroll";
 import classes from "./Navbar.module.css";
 import Logo from "../../../../assets/Logo/logo.png";
@@ -17,14 +17,30 @@ const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState(false);
 
   const navigate = useNavigate();
-
+  const handleContactClick = () => {
+    navigate("/contact");
+  };
   const handleSignUpClick = () => {
     navigate("/welcome");
   };
 
   const handleAboutUsClick = () => {
-    navigate("/main-app");
+    navigate("/aboutus");
   };
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state && location.state.scrollToFAQ) {
+      const faqSection = document.getElementById("faq");
+      if (faqSection) {
+        window.scrollTo({
+          top: faqSection.offsetTop - 100,
+          behavior: "smooth",
+        });
+      }
+    }
+  }, [location]);
+
   return (
     <nav className={classes.navbar}>
       <div className={classes.navbar_container}>
@@ -122,6 +138,7 @@ const Navbar: React.FC = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
+                duration={500}
               >
                 {t("navbar.faq")}
               </Link>
@@ -133,6 +150,7 @@ const Navbar: React.FC = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
+                onClick={handleContactClick}
               >
                 {t("navbar.contact")}
               </Link>

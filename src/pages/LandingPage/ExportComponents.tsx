@@ -1,5 +1,6 @@
 export { default as Home } from "./Home";
 export { default as Welcome } from "./Auth";
+export { default as Contact } from "../LandingPage/Home/Contacts/Contacts";
 export { default as AboutUs } from "./AboutUs";
 export { default as SignIn } from "./Auth/SignIn";
 export { default as SignUp } from "./Auth/SignUp";

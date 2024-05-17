@@ -8,7 +8,6 @@ import Newsletter from "./Newsletter";
 import FAQComponent from "./FAQ";
 import FooterComponent from "./FooterComponent/FooterComponent";
 import Testimonials from "./TestimonialsComponent/Testimonials";
-import Contacts from "./Contacts/Contacts";
 
 function Home() {
   return (
@@ -22,9 +21,6 @@ function Home() {
 
         {/* TODO: Here should be Reusable Components */}
         <DiscoverComponent />
-
-        {/*Contacts Page */}
-        <Contacts />
 
         {/* Testimonials */}
         <Testimonials />
