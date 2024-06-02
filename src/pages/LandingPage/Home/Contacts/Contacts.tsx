@@ -16,7 +16,7 @@ const AboutUs = () => {
 
   return (
     <div>
-      <header>
+      <header className={styles.header}>
         <ReusableNavbar />
       </header>
       <main>

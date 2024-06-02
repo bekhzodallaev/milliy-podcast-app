@@ -2,7 +2,7 @@
   font-family: MuseoModerno;
   src: url("../../assets/fonts/musemoderno/MuseoModerno-Regular.ttf");
 }
-header {
+.header {
   padding: 0.625rem 1.25rem;
   display: flex;
   justify-content: space-between;

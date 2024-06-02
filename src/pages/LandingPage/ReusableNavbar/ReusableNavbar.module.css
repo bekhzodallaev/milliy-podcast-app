@@ -4,7 +4,6 @@
   background: #fff;
   margin: 0.625rem 6.25rem;
   padding: 1.25rem 0.625rem;
-  width: 100%;
 }
 .reusable_nav {
   display: flex;
@@ -48,4 +47,65 @@ ul li .links {
   border: 0.5px solid #fff;
   background: linear-gradient(91deg, #9e1f63 6%, #392d91 90.82%);
   color: #fff;
+}
+.menu_bar {
+  display: none;
+}
+.mobile_links {
+  display: none;
+}
+/* Responsive Navbar */
+@media only screen and (max-width: 799px) {
+  .header_container {
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    background-color: unset;
+    width: 100%;
+  }
+  .mobile_links {
+    display: block;
+  }
+  .podcast_svg path {
+    fill: white !important;
+  }
+  .links {
+    display: none;
+  }
+  .menu_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4375rem;
+  }
+
+  .mobile_links {
+    position: fixed;
+    width: 100%;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 10rem;
+    z-index: 100;
+  }
+
+  .mobile_links ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+    position: fixed;
+    left: 20px;
+    top: 7rem;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .header_container {
+    margin: 0.625rem 3.75rem;
+  }
 }
