@@ -51,6 +51,9 @@ ul li .links {
 .menu_bar {
   display: none;
 }
+.mobile_links {
+  display: none;
+}
 /* Responsive Navbar */
 @media only screen and (max-width: 799px) {
   .header_container {
@@ -59,6 +62,9 @@ ul li .links {
     margin: 0;
     background-color: unset;
     width: 100%;
+  }
+  .mobile_links {
+    display: block;
   }
   .podcast_svg path {
     fill: white !important;
@@ -70,6 +76,31 @@ ul li .links {
     display: flex;
     flex-direction: column;
     gap: 0.4375rem;
+  }
+
+  .mobile_links {
+    position: fixed;
+    width: 100%;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 10rem;
+    z-index: 100;
+  }
+
+  .mobile_links ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+    position: fixed;
+    left: 20px;
+    top: 7rem;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
   }
 }
 
