@@ -199,6 +199,12 @@ label {
 
 /* Mobile version responsive */
 @media only screen and (max-width: 799px) {
+  .header {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.625rem 1.25rem;
+    z-index: 1;
+    margin-bottom: 4rem;
+  }
   .title {
     font-size: 1.5rem;
   }
