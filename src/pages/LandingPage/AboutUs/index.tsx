@@ -9,10 +9,10 @@ import FooterComponent from "../Home/FooterComponent/FooterComponent";
 const AboutUs = () => {
   return (
     <div>
-      <header>
+      <header className={styles.header}>
         <ReusableNavbar />
       </header>
-      <main>
+      <main className={styles.main}>
         <section className={styles.main_content}>
           <h1>Our Story, Our Mission</h1>
           <p>
@@ -26,7 +26,7 @@ const AboutUs = () => {
           </p>
         </section>
         <section className={styles.main_content}>
-          <p>
+          <p className={styles.order_1}>
             Step behind the mic and uncover the heart and soul of Echoes of
             Dreams. In this section, we invite you to peek behind the curtain
             and learn more about the faces and voices behind the podcast. From
@@ -36,7 +36,7 @@ const AboutUs = () => {
             compelling stories that leave a lasting impact. Welcome to the
             heartbeat of Echoes of Dreams
           </p>
-          <h1>Behind the Mic</h1>
+          <h1 className={styles.order_2}>Behind the Mic</h1>
         </section>
       </main>
       <footer>
