@@ -85,6 +85,7 @@ const Navbar: React.FC = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
+                  onClick={handleAboutUsClick}
                 >
                   {t("navbar.about")}
                 </Link>
@@ -107,6 +108,7 @@ const Navbar: React.FC = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
+                  onClick={handleContactClick}
                 >
                   {t("navbar.contact")}
                 </Link>

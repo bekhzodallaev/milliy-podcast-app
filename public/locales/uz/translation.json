@@ -83,6 +83,12 @@
     "terms": "Xizmat shartlari",
     "cookies": "Cookie sozlamalari"
   },
+  "about": {
+    "heading1": "Bizning Hikoyamiz, Bizning Maqsadimiz",
+    "text1": "Echoes of Dreams sahifamizga xush kelibsiz! Bu yerda bizning podkastimiz haqidagi safarimiz, jamoamiz va inson tajribasiga chuqur ta'sir qiluvchi hikoyalarni baham ko'rish missiyamiz haqida ko'proq bilishingiz mumkin. Podkastimizning ilhomi, haqiqatga sodiqligimiz va hikoya qilishga bo'lgan ishtiyoqimizni kashf eting. Sevgi go'zalligini, yo'qotishning og'rig'ini va ikkinchi imkoniyatlarning umidini hikoya kuchi orqali o'rganish uchun bizga qo'shiling.",
+    "heading2": "Mikrofon Orqasida",
+    "text2": "Mikrofon orqasiga o'ting va Echoes of Dreamsning yuragi va ruhini kashf eting. Bu bo'limda biz sizni pardani orqasiga nazar solishga va podkastimizdagi yuzlar va ovozlar bilan tanishishga taklif qilamiz. Oddiy boshlanishlarimizdan tortib, yuraklarga tegib, onglarni ilhomlantiruvchi umumiy maqsadimizgacha, bizni bu yerga olib kelgan sayohatni kashf eting. Bizning jamoamiz, qadriyatlarimiz va ajoyib hikoyalar yaratishga bo'lgan tinimsiz sadoqatimiz bilan tanishing. Echoes of Dreams yuragiga xush kelibsiz."
+  },
   "faqQuestions": {
     "1": {
       "title": "Podkastlarni qanday eshitishim mumkin?",

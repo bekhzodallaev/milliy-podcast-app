@@ -6,8 +6,9 @@ import { ReactComponent as MenuVector1 } from "../../../assets/LandingPageAssets
 import { ReactComponent as MenuVector2 } from "../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 1.svg";
 import { ReactComponent as MenuVector3 } from "../../../assets/LandingPageAssets/HomePage/MenuAssets/Vector 3.svg";
 import { ReactComponent as CancelIcon } from "../../../assets/LandingPageAssets/HomePage/MenuAssets/Group 1.svg";
-
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 // const navigate = useNavigate();
 
 // const handleContactClick = () => {
@@ -23,6 +24,7 @@ import { Link } from "react-router-dom";
 
 const ReusableNavbar = () => {
   const [toggle, setToggle] = React.useState(false);
+  const { t } = useTranslation();
 
   return (
     <div className={styles.header_container}>
@@ -50,17 +52,17 @@ const ReusableNavbar = () => {
             <ul>
               <li>
                 <Link to="/aboutus" className={styles.link}>
-                  ABOUT
+                  {t("navbar.about")}
                 </Link>
               </li>
               <li>
                 <Link to="/#faq" className={styles.link}>
-                  FAQ
+                  {t("navbar.faq")}
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className={styles.link}>
-                  CONTACT
+                  {t("navbar.contact")}
                 </Link>
               </li>
             </ul>
@@ -69,22 +71,22 @@ const ReusableNavbar = () => {
         <ul className={styles.links}>
           <li>
             <Link to="/aboutus" className={styles.links}>
-              ABOUT
+              {t("navbar.about")}
             </Link>
           </li>
           <li>
             <Link to="/#faq" className={styles.links}>
-              FAQ
+              {t("navbar.faq")}
             </Link>
           </li>
           <li>
             <Link to="/contact" className={styles.links}>
-              CONTACT
+              {t("navbar.contact")}
             </Link>
           </li>
         </ul>
 
-        <button className={styles.signup_btn}>Sign Up</button>
+        <button className={styles.signup_btn}>{t("navbar.sign_up")}</button>
       </nav>
     </div>
   );
